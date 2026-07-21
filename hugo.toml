@@ -1,0 +1,39 @@
+baseURL = '/'
+locale = 'en-us'
+title = 'Cynthius Solutions'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 20
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 30
+  
+  [[menus.main]]
+    name = 'Portfolio'
+    pageRef = '/portfolio'
+    weight = 40
+
+  [[menus.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 50
+
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 60
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
