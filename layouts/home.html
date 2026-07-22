@@ -1,10 +1,29 @@
 {{ define "main" }}
+<div class="page">
+  <div class="section">
+    {{ partial "home/hero.html" }}
+  </div>
 
-  {{ partial "home/hero.html" }}
-  {{ partial "home/brand.html" }}
-  {{ partial "home/services.html" }}
-  {{ partial "home/testimonials.html" }}
-  {{ partial "home/platforms.html" }}
-  {{ partial "home/cta.html" }}
-    
+  <div class="section">
+    {{ partial "home/brand.html" }}
+  </div>
+
+  <div class="section">
+    {{ partial "home/services.html" }}
+  </div>
+
+  <div class="section">
+    {{ partial "home/testimonials.html" }}
+  </div>
+
+  <div class="section">
+    {{ partial "home/platforms.html" }}
+  </div>
+
+  <div class="section">
+    {{ partial "home/cta.html" }}
+  </div>
+</div>
+
+
 {{ end }}
