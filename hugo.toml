@@ -33,6 +33,37 @@ title = 'Cynthius Solutions'
     name = 'Blog'
     pageRef = '/blog'
     weight = 60
+
+  [[menus.mobile]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.mobile]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 20
+
+  [[menus.mobile]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 30
+  
+  [[menus.mobile]]
+    name = 'Portfolio'
+    pageRef = '/portfolio'
+    weight = 40
+
+  [[menus.mobile]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 50
+
+  [[menus.mobile]]
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 60
+
   
 
 [module]
