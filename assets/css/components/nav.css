@@ -5,6 +5,16 @@ nav {
   margin-bottom: 2rem;
 }
 
+.nav-logo
+
+{
+  margin-right: auto;
+}
+
+.nav-button {
+ margin-left: auto;
+}
+
 
 ul {
   list-style-type: none;
