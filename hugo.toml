@@ -3,6 +3,7 @@ locale = 'en-us'
 title = 'Cynthius Solutions'
 
 [menus]
+  
   [[menus.main]]
     name = 'Home'
     pageRef = '/'
@@ -32,6 +33,7 @@ title = 'Cynthius Solutions'
     name = 'Blog'
     pageRef = '/blog'
     weight = 60
+  
 
 [module]
   [module.hugoVersion]
