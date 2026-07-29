@@ -46,4 +46,35 @@ ul li a.active {
 
 
 
+.mobile-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+}
+
+.mobile-menu ul li {
+  float: left;
+}
+
+.mobile-menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mobile-menu ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+.mobile-menu ul li a.active {
+  background-color: #04AA6D;
+}
+
+
+
 
