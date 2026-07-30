@@ -5,14 +5,12 @@ nav {
   margin-bottom: 2rem;
 }
 
-.nav-logo
-
-{
+.nav-logo {
   margin-right: auto;
 }
 
 .nav-button {
- margin-left: auto;
+  margin-left: auto;
 }
 
 
@@ -46,7 +44,7 @@ ul li a.active {
 
 
 
-ul.mobilemenu {
+.mobile-menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -55,11 +53,11 @@ ul.mobilemenu {
   display: none;
 }
 
-.mobilemenu ul li {
+.mobile-menu ul li {
   float: left;
 }
 
-.mobilemenu ul li a {
+.mobile-menu ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -67,14 +65,25 @@ ul.mobilemenu {
   text-decoration: none;
 }
 
-.mobilemenu ul li a:hover:not(.active) {
+.mobile-menu ul li a:hover:not(.active) {
   background-color: #111111;
 }
 
-.mobilemenu ul li a.active {
+.mobile-menu ul li a.active {
   background-color: #04AA6D;
 }
 
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: none;
+}
 
 
-
+@media(max-width: 400px) {
+  ul.mobile-menu {
+    width: 100%;
+  }
+}
