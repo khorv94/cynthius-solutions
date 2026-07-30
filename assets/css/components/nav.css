@@ -1,8 +1,9 @@
 nav {
+
+}
+
+.container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
 }
 
 .nav-logo {
@@ -44,18 +45,13 @@ ul li a.active {
 
 
 
-.mobile-menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+.mobile-menu {
   display: none;
+  list-style-type: none;
 }
 
-.mobile-menu ul li {
-  float: left;
-}
+
+
 
 .mobile-menu ul li a {
   display: block;
@@ -78,12 +74,35 @@ ul li a.active {
 }
 
 .mobile-only {
-  display: none;
+  display: flex;
+}
+
+.medium-tablet {
+ display: none;
+}
+
+#hamburger-button {
+  align-items: center;
 }
 
 
-@media(max-width: 400px) {
-  ul.mobile-menu {
-    width: 100%;
-  }
+
+/* (Medium) */
+@media screen and (min-width: 768px) {
+  
+  .mobile-only {
+  display: none;
+}
+
+.medium-tablet {
+ display: flex;
+}
+
+}
+
+/* (Large) */
+@media screen and (min-width: 992px) {
+  .desktop-only {
+  display: flex;
+}
 }

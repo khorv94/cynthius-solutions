@@ -4,13 +4,20 @@
 
 function showMobileMenu(){
     console.log('toggleMenu flex');
-    const mobilemenu = document.querySelector('.mobilemenu')
-    mobilemenu.style.display = 'flex'
+    const mobilemenu = document.querySelector('.mobile-menu')
+    mobilemenu.style.cssText = `
+        
+        display: grid; 
+        
+    
+        `;
+
     
 }
 function hideMobileMenu(){
     console.log('toggleMenu none');
-    const mobilemenu = document.querySelector('.mobilemenu')
-    mobilemenu.style.display = 'none'
+    const mobilemenu = document.querySelector('.mobile-menu')
+    mobilemenu.style.cssText = 'none'
 }
+
 </script> 
