@@ -46,20 +46,20 @@ ul li a.active {
 
 
 
-.mobile-menu ul {
+ul.mobilemenu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-  display: flex;
+  display: none;
 }
 
-.mobile-menu ul li {
+.mobilemenu ul li {
   float: left;
 }
 
-.mobile-menu ul li a {
+.mobilemenu ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -67,11 +67,11 @@ ul li a.active {
   text-decoration: none;
 }
 
-.mobile-menu ul li a:hover:not(.active) {
+.mobilemenu ul li a:hover:not(.active) {
   background-color: #111111;
 }
 
-.mobile-menu ul li a.active {
+.mobilemenu ul li a.active {
   background-color: #04AA6D;
 }
 
