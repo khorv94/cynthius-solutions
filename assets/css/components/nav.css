@@ -1,16 +1,14 @@
 nav {
-
+ display: flex;
 }
 
-.container {
-  display: flex;
-}
 
-.nav-logo {
+
+#nav-logo {
   margin-right: auto;
 }
 
-.nav-button {
+#nav-cta {
   margin-left: auto;
 }
 
@@ -69,32 +67,36 @@ ul li a.active {
   background-color: #04AA6D;
 }
 
-.desktop-only {
-  display: none;
-}
 
-.mobile-only {
+
+.sm {
   display: flex;
 }
 
-.medium-tablet {
+.md {
  display: none;
 }
 
-#hamburger-button {
-  align-items: center;
+.lg {
+  display: none;
 }
+
+
+/* Look in buttons.css */
+/* #hamburger-button {
+  align-items: center;
+} */
 
 
 
 /* (Medium) */
 @media screen and (min-width: 768px) {
   
-  .mobile-only {
+.sm {
   display: none;
 }
 
-.medium-tablet {
+.md {
  display: flex;
 }
 
@@ -102,7 +104,7 @@ ul li a.active {
 
 /* (Large) */
 @media screen and (min-width: 992px) {
-  .desktop-only {
+  .lg {
   display: flex;
 }
 }

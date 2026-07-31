@@ -5,3 +5,7 @@
 .btn-secondary {
     background-color: aqua;
 }
+
+#hamburger-button {
+  align-items: center;
+}

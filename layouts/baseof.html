@@ -7,11 +7,12 @@
     {{ partial "head.html" . }}
   </head>
   <body>
-    <header>{{ partial "header.html" . }}</header>
+    
+    <header class="container">{{ partial "header.html" . }}</header>
     <main>{{ block "main" . }}{{ end }}</main>
     <footer>{{ partial "footer.html" . }}</footer>
 
     {{ partial "js/mobile-menu.html" }}
-    
+ 
   </body>
 </html>
