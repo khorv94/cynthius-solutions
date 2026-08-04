@@ -1,11 +1,29 @@
 .btn-primary {
- background-color: yellow;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 66px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: #5C57CD;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10) inset;
 }
 
 .btn-secondary {
-    background-color: aqua;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: rgba(0, 0, 0, 0.10);
+backdrop-filter: blur(12px);
 }
 
 #hamburger-button {
   align-items: center;
+}
+
+#hero-buttons {
+display: flex;
+align-items: center;
+gap: 20px;
 }
