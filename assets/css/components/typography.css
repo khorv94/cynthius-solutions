@@ -28,7 +28,7 @@ line-height: 140%; /* 33.6px */
 letter-spacing: -0.48px;
 }
 
-p.sm {
+p.small-font {
 color: var(--white-70, rgba(255, 255, 255, 0.70));
 /* Body/SM */
 font-family: Poppins;
@@ -49,8 +49,8 @@ font-weight: 400;
 line-height: 150%; /* 24px */
 }
 
-p.lg {
-color: #56565F;
+p.large-font {
+color: var(--white-70, rgba(255, 255, 255, 0.70));
 text-align: center;
 /* Body/LG */
 font-family: Poppins;
@@ -71,14 +71,3 @@ font-style: normal;
 font-weight: 600;
 line-height: 110%;
 }
-
-.caption {
-color: var(--White, #FFF);
-font-family: Poppins;
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 19.5px */
-letter-spacing: 0.13px;
-}
-
