@@ -28,7 +28,18 @@ line-height: 140%; /* 33.6px */
 letter-spacing: -0.48px;
 }
 
-p.small-font {
+p.small-font-dark {
+color: var(--black-60, rgba(0, 0, 0, 0.60));
+/* Body/SM */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 18px */
+letter-spacing: -0.36px;
+}
+
+p.small-font-white {
 color: var(--white-70, rgba(255, 255, 255, 0.70));
 /* Body/SM */
 font-family: Poppins;
