@@ -60,6 +60,42 @@ line-height: 160%; /* 24px */
 text-decoration: none;
 }
 
+.btn-primary-white {
+display: flex;
+padding: 10px 10px 10px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 66px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: #fff;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10) inset;
+}
+
+.btn-primary-white a {
+color: #5C57CD;
+/* UI/Medium */
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 24px */
+text-decoration: none;
+}
+
+#btn-primary-white-icon {
+display: flex;
+width: 36px;
+height: 36px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+aspect-ratio: 1/1;
+border-radius: 38px;
+background: #5C57CD;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
+margin-left: 10px;
+}
+
 #hamburger-button {
   align-items: center;
 }
