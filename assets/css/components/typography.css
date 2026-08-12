@@ -80,6 +80,16 @@ font-weight: 400;
 line-height: 150%; /* 24px */
 }
 
+p.bright {
+color: #fff;
+/* Body/MD */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+
 p.large-font {
 color: var(--white-70, rgba(255, 255, 255, 0.70));
 text-align: center;
