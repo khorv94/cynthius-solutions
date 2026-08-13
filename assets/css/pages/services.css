@@ -1,3 +1,5 @@
+/* HERO SECTION */
+
 section#services-hero {
 display: flex;
 flex-direction: column;
@@ -13,13 +15,53 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 }
 
+#services-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#services-content h2 {
+margin-top: auto;
+}
+
+#services-content button {
+margin-top: auto;
+}
+
+#services-stack {
+display: flex;
+width: 570px;
+padding: 26px;
+flex-direction: column;
+align-items: flex-start;
+gap: 26px;
+
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 0.18);
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.05) 100%);
+box-shadow: 0 24px 70px 0 rgba(0, 0, 0, 0.18);
+backdrop-filter: blur(14.999999046325684px);
+}
+
 #services-stack-top {
 display: flex;
 justify-content: space-between;
 align-items: center;
 align-self: stretch;
 max-height: 36px;
+margin-top: 26px;
+margin-bottom: 26px;
 }
+
+#services-stack-dots {
+display: flex;
+align-items: center;
+gap: 9px;
+}
+
 
 #services-stack-eyebrow {
 margin-left: auto;
@@ -36,37 +78,58 @@ background: rgba(92, 87, 205, 0.06);
 backdrop-filter: blur(7px);
 }
 
+#services-stack-container > hr {
+margin-bottom: 26px;
+}
+
+
 
 #services-stack-cards {
   display: grid;
-grid-template-columns: 160px 160px 160px;
-grid-template-rows: auto auto auto;;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
 grid-auto-flow: column;
   gap: 14px;
   row-gap: 14px;
 
-background: rgba(255, 255, 255, 0.20);
-box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02);
+/* background: rgba(255, 255, 255, 0.20); */
+/* box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02); */
 align-items: center;
+
+
 }
 
 #services-stack-card {
-padding: 16px;
-  text-align: left;
-  border-radius: 10px;
-background: var(--White, #FFF);
-box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02);
+display: flex;
+width: 163.333px;
+padding: 14px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+
+border-radius: 18px;
+border: 1px solid rgba(255, 255, 255, 0.13);
+background: rgba(255, 255, 255, 0.08);
+backdrop-filter: blur(9px);
 
 }
 
 #services-stack-card-tall {
+display: flex;
 padding: 16px;
-  text-align: left;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
 background: var(--White, #FFF);
 box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02);
 grid-row: span 3;
-height: 100%
+height: 100%;
+
+border-radius: 18px;
+border: 1px solid rgba(255, 255, 255, 0.13);
+background: rgba(255, 255, 255, 0.08);
+backdrop-filter: blur(9px);
 }
 
 #services-stack-bottom {
@@ -85,4 +148,15 @@ background: rgba(92, 87, 205, 0.06);
 
 #services-stack-bottom > p {
 flex: 1 0 0;
+}
+
+
+
+
+/* BRAND SECTION */
+
+
+#services-brand-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
