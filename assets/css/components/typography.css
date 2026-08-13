@@ -16,6 +16,8 @@ font-style: normal;
 font-weight: 600;
 line-height: 140%; /* 72.8px */
 letter-spacing: -1.04px;
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 h2.white {
@@ -26,6 +28,8 @@ font-style: normal;
 font-weight: 600;
 line-height: 140%; /* 72.8px */
 letter-spacing: -1.04px;
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 h3 {
@@ -68,6 +72,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 p.white {
@@ -78,6 +84,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 p.bright {
@@ -88,6 +96,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 p.large-font {
