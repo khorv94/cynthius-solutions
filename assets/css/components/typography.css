@@ -125,6 +125,16 @@ margin-top: 0px;
 margin-bottom: 0px;
 }
 
+p.bold {
+color: var(--Black, #000);
+/* UI/Medium */
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 24px */
+}
+
 p.large-font {
 color: var(--white-70, rgba(255, 255, 255, 0.70));
 text-align: center;
