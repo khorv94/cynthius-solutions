@@ -1,0 +1,95 @@
+section#contact-hero {
+background-image: url("static/images/pages/about-bg.svg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 1000px;
+}
+
+.wrapper#contact-hero {
+display: flex;
+flex-direction: row;
+}
+
+#contact-hero-left {
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+#contact-form {
+display: flex;
+flex-direction: column;
+}
+
+.contact-form-field {
+border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(0, 0, 0, 0.12);
+backdrop-filter: blur(7.349999904632568px);
+width: 100%;
+
+}
+
+
+#contact-form-top {
+display: flex;
+flex-direction: column;
+}
+
+#contact-form-top > input#name {
+background: url("static/icons/contact/contact-name.svg");
+background-repeat: no-repeat;
+background-position: right;
+}
+
+#contact-form-top > input#email {
+background: url("static/icons/contact/contact-email.svg");
+background-repeat: no-repeat;
+background-position: right;
+}
+
+
+#contact-form-bottom {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+#contact-form-bottom > div > input#phone {
+background: url("static/icons/contact/contact-phone.svg");
+background-repeat: no-repeat;
+background-position: right;
+}
+
+#contact-form-bottom > div > input#company {
+background: url("static/icons/contact/contact-company.svg");
+background-repeat: no-repeat;
+background-position: right;
+}
+
+#contact-form-bottom > div > input#website {
+background: url("static/icons/contact/contact-website.svg");
+background-repeat: no-repeat;
+background-position: right;
+}
+
+#contact-form-bottom > div > input#budget {
+background: url("static/icons/contact/contact-budget.svg");
+background-repeat: no-repeat;
+background-position: right;
+}
+
+#contact-form-message {
+display: flex;
+flex-direction: column;
+grid-column: span 2;
+width: 100%;
+}
+
+#contact-form-message > input {
+width: 100%;
+}
+
+
+
