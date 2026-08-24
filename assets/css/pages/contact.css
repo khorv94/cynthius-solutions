@@ -6,24 +6,67 @@ height: 1000px;
 }
 
 .wrapper#contact-hero {
-display: flex;
-flex-direction: row;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
-#contact-hero-left {
+#contact-hero-content {
 display: flex;
 flex-direction: column;
-width: 100%;
-justify-content: space-between;
-align-items: center;
+gap: 32px;
 }
+
+#contact-text {
+
+}
+
+#contact-info {
+display: flex; 
+flex-direction: column;
+gap: 28px;
+}
+
+.contact-info-item {
+display: flex;
+gap: 8px;
+}
+
+
+
 
 #contact-form {
 display: flex;
 flex-direction: column;
+padding: 42px 42px 32px 42px;
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(255, 255, 255, 0.04);
+box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.10);
+backdrop-filter: blur(42px);
 }
 
+
+
+
+
 .contact-form-field {
+display: flex;
+height: 44px;
+padding: 10px 14px;
+align-items: center;
+gap: 14px;
+align-self: stretch;
+
+border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(0, 0, 0, 0.12);
+backdrop-filter: blur(7.349999904632568px);
+width: 100%;
+
+}
+
+.contact-form-textarea {
+
 border-radius: 8px;
 border: 1px solid rgba(255, 255, 255, 0.10);
 background: rgba(0, 0, 0, 0.12);
@@ -36,7 +79,10 @@ width: 100%;
 #contact-form-top {
 display: flex;
 flex-direction: column;
+margin-bottom: 32px;
+gap: 18px;
 }
+
 
 #contact-form-top > input#name {
 background: url("static/icons/contact/contact-name.svg");
@@ -54,6 +100,9 @@ background-position: right;
 #contact-form-bottom {
 display: grid;
 grid-template-columns: 1fr 1fr;
+margin-top: 32px;
+margin-bottom: 32px;
+gap: 18px;
 }
 
 #contact-form-bottom > div > input#phone {
@@ -87,9 +136,14 @@ grid-column: span 2;
 width: 100%;
 }
 
-#contact-form-message > input {
-width: 100%;
+#contact-form-message > textarea {
+resize: none;
 }
+
+.btn-primary-no-icon > input {
+  all: unset;
+}
+
 
 /* FAQ SECTION  */
 

@@ -1,8 +1,8 @@
 <div class="wrapper" id="contact-hero">
-  <div id="contact-hero-left">
+  <div id="contact-hero-content">
     <div id="contact-text">
-      <h2>Get In Touch</h2>
-      <p>
+      <h2 class="white">Get In Touch</h2>
+      <p class="white">
         Are you ready to kickstart an engaging, easy-to-navigate, and modern
         website for your brand, creative pursuit, or business future? Send any
         questions or consultation requests to our team, and we will respond as
@@ -12,15 +12,17 @@
     <div id="contact-info">
       <div class="contact-info-item">
         <img src="/icons/contact/email.svg" />
-        <p>contact@cynthius-solutions.com</p>
+        <p class="bright">contact@cynthius-solutions.com</p>
       </div>
       <div class="contact-info-item">
         <img src="/icons/contact/phone.svg" />
-        <p>(414) 293-2851</p>
+        <p class="bright">(414) 293-2851</p>
       </div>
       <div class="contact-info-item">
         <img src="/icons/contact/map-pin.svg" />
-        <p>777 N Jefferson St Suite 408 PMB 1132 Milwaukee, WI 53202</p>
+        <p class="bright">
+          777 N Jefferson St Suite 408 PMB 1132 Milwaukee, WI 53202
+        </p>
       </div>
     </div>
   </div>
@@ -28,28 +30,35 @@
   <div id="contact-form">
     <form action="https://formspree.io/f/mdajzzoo" method="POST">
       <div id="contact-form-top">
-        <label for="name">Name</label>
-        <input
-          type="text"
-          class="contact-form-field"
-          id="name"
-          name="name"
-          placeholder="Jane Doe"
-        />
-
-        <label for="email">Email</label>
-        <input
-          type="text"
-          class="contact-form-field"
-          id="email"
-          name="email"
-          placeholder="jdoe@company.com"
-        />
+        <div>
+          <label for="name"
+            ><p class="bright">Name<span class="purple">*</span></p></label
+          >
+          <input
+            type="text"
+            class="contact-form-field"
+            id="name"
+            name="name"
+            placeholder="Jane Doe"
+          />
+        </div>
+        <div>
+          <label for="email"
+            ><p class="bright">Email<span class="purple">*</span></p></label
+          >
+          <input
+            type="text"
+            class="contact-form-field"
+            id="email"
+            name="email"
+            placeholder="jdoe@company.com"
+          />
+        </div>
       </div>
       <hr />
       <div id="contact-form-bottom">
         <div>
-          <label for="phone">Phone Number</label>
+          <label for="phone"><p class="bright">Phone Number</p></label>
           <input
             type="text"
             class="contact-form-field"
@@ -59,7 +68,7 @@
           />
         </div>
         <div>
-          <label for="company">Company Name</label>
+          <label for="company"><p class="bright">Company Name</p></label>
           <input
             type="text"
             class="contact-form-field"
@@ -69,7 +78,7 @@
           />
         </div>
         <div>
-          <label for="website">Company Website</label>
+          <label for="website"><p class="bright">Company Website</p></label>
           <input
             type="text"
             class="contact-form-field"
@@ -79,7 +88,7 @@
           />
         </div>
         <div>
-          <label for="budget">Project Budget</label>
+          <label for="budget"><p class="bright">Project Budget</p></label>
           <input
             type="text"
             class="contact-form-field"
@@ -89,14 +98,8 @@
           />
         </div>
         <div id="contact-form-message">
-          <label for="message">Message</label>
-          <input
-            type="text"
-            class="contact-form-field"
-            id="message"
-            name="message"
-            placeholder="Write your message here"
-          />
+          <label for="message"><p class="bright">Message</p></label>
+          <textarea name="message" id="message" class="contact-form-textarea" cols="30" rows="10"></textarea>
         </div>
       </div>
       <div class="btn-primary-no-icon">

@@ -158,6 +158,11 @@ font-weight: 600;
 line-height: 110%;
 }
 
+.purple {
+color: #5C57CD;
+}
+
+
 .section-heading {
 color: var(--Purple, #5C57CD);
 text-transform: uppercase;
