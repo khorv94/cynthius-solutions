@@ -1,7 +1,15 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
 
+  <section id="portfolio-hero">
+    {{ partial "portfolio/hero.html" }}
+  </section>
 
+  <section>
+    {{ partial "portfolio/projects.html" }}
+  </section>
 
-  {{ .Content }}
+  <section>
+    {{ partial "cta-alt.html" }}
+  </section>
+
 {{ end }}
