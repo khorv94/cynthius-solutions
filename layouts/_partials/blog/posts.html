@@ -1,0 +1,6 @@
+{{ range .Pages }}
+    <section>
+      <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+      {{ .Summary }}
+    </section>
+  {{ end }}
