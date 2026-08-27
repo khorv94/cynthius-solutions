@@ -1,7 +1,33 @@
 {{ define "main" }}
-  <h1>{{ partial "breadcrumbs.html" . }}</h1>
+<div class="wrapper">
+  <div>
+    {{ partial "breadcrumbs.html" . }}
+    <h2>{{ .Title }}</h2>
+    <div id="post-date-views">
+      <img src="/icons/blog/calendar.svg" />
+      {{ $format := "02 January 2006" }}
+      <p>{{ .Date.Format $format }}</p>
+
+      <img src="/icons/blog/dot.svg" />
+
+      <img src="/icons/blog/eye.svg" />
+      <p>1,200</p>
+    </div>
+    {{ with .Resources.Get "./cover.png" }}
+    <div class="blog-post-cover">
+      {{ with .Resize "1200x600" }}
+      <img src="{{ .RelPermalink }}" alt="" />
+      {{ end }} {{ end }}
+    </div>
+  </div>
+</div>
+<div id="blog-post-content">
+{{ .Content }} 
+
+</div>
+
+{{ .TableOfContents }}
 
 
 
-  {{ .Content }}
 {{ end }}

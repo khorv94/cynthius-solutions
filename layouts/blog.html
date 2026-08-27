@@ -16,13 +16,24 @@
       </div>
     </div>
     <div id="blog-posts">
-      {{ range .Pages }}
+      
+      {{ $posts := where .Site.RegularPages "Section" "blog" }}
+      {{ $posts = $posts.ByDate.Reverse }}
+      
+      
+      
+      
+
+
+
+      {{ range (.Paginate $posts 4).Pages }}
       <div class="blog-post-card">
         {{ with .Resources.Get "./cover.png" }}
         <div class="blog-cover">
-          {{ with .Resize "600x" }}
+          {{ with .Resize "600x300" }}
           <img src="{{ .RelPermalink }}" alt="" />
-          {{ end }} {{ end }}
+          {{ end }} 
+        {{ end }}
         </div>
 
         <div>
@@ -44,6 +55,9 @@
         </div>
       </div>
       {{ end }}
+    </div>
+    <div>
+      {{ partial "pagination.html" . }}
     </div>
   </div>
 </section>
