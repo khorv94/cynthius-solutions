@@ -3,6 +3,7 @@ title = 'The Real Difference Between a $500 Website and a $50,000 Website'
 description = "Premium web design isn’t about flashy visuals. It’s about strategy, conversion, and building long-term business value."
 date = 2026-06-21T11:00:00-07:00
 draft = false
+tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 keywords = ['premium web design', 'web design strategy', 'strategic web design']
 layout = 'blog-post'
 +++

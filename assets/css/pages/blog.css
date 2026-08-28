@@ -34,7 +34,7 @@ border: dashed;
 
 
 
- .blog-cover {
+.blog-cover {
 overflow: hidden;
 border-radius: 14px;
 } 
@@ -54,6 +54,14 @@ display: flex;
 
 /* BLOG POST SECTION */
 
+
+section#blog-post-hero {
+background-image: url("static/images/pages/about-bg.svg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 1100px;
+}
+
 #breadcrumbs {
 display: flex;
 justify-content: space-between;
@@ -70,8 +78,75 @@ display: flex;
 display: flex;
 }
 
+.blog-post-cover {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
-#TableOfContents ul {
+.blog-post-cover div img {
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+
+}
+
+
+#blog-post-content {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+#post-content {
+grid-column: span 2;
+border: dashed;
+}
+
+#post-toc {
+height: max-content;
+padding: 24px;
+
+border-radius: 14px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: var(--White, #FFF);
+box-shadow: 0 2px 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+#toc-heading {
+margin-bottom: 20px;
+}
+
+nav#TableOfContents {
+all: unset;
+}
+
+
+nav#TableOfContents ul {
+all: unset;
 display: flex;
 flex-direction: column;
+gap: 16px;
+}
+
+nav#TableOfContents ul li {
+all: unset;
+border: dashed;
+}
+
+nav#TableOfContents ul li a {
+all: unset;
+}
+
+
+
+#TableOfContents ul li::before {
+content: url("static/icons/blog/toc.svg") / "forward arrow tick";
+  margin-right: 6px;
+}
+
+
+
+
+#related-posts {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
