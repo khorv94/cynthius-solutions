@@ -8,7 +8,7 @@ keywords = ['web design and development agency', 'consulting services', 'persona
 layout = 'blog-post'
 +++
 
-The Benefits of Upscaling Your Small Business Website for Growth and Branding
+# The Benefits of Upscaling Your Small Business Website for Growth and Branding
 
 It happens all the time. A customer looking for a restaurant searches for local dining in the area, only to find a link on search engines like Google for an outdated Facebook profile or Yelp review with old menus. Instead of capturing that potential customer, the lack of a website sends them to a competitor. 
 
@@ -16,7 +16,7 @@ Roughly 73% of all small businesses in the US have a website. The problem isn’
 
 Getting the right web design and development agency to create something scalable that matches your small business budget shouldn’t be like pulling teeth. If you want to grow when most of your customers are using smartphones and tablets to search for products and services, you have to upgrade your website. 
 
-A Professional Website Helps Small Businesses Look More Established
+## A Professional Website Helps Small Businesses Look More Established
 
 About 87% of customers are willing to pay more for a trusted brand. Why? Because they know what they’re getting. When you don’t have a quality website that clearly explains what you do, what value you bring to the table, and how to book an appointment or buy a product, you lose that customer trust. 
 
@@ -24,7 +24,7 @@ Having an outdated website with old information that is no longer relevant does 
 
 Your upgraded website should feature those strong videos that resonate so well with your target audience that when they share your link, it’s with hot leads. Clear messaging, strong navigation, and well-organized lead-capture elements like intake forms, CTA buttons, and newsletter signups need to be naturally sprinkled into your small business website. That doesn’t require a massive investment. Only a strategic improvement by professional designers. 
 
-Your Website Creates a Central Place for Sales and Leads
+## Your Website Creates a Central Place for Sales and Leads
 
 It’s easier than ever to be a small business, like a local food truck or mobile pet groomer, and gain a massive following on social media. Calling yourself the “cat whisperer” and filming grooming videos with a few catchphrases can do the trick. You've just got to remember social views won't always equal lead generation. 
 
@@ -34,7 +34,7 @@ You want all your online presences, like social media, Google Business Profile, 
 
 Your business needs a stable online presence where customers can quickly learn about the services you offer, view pricing or a portfolio of work, book services, and read reviews. All that unified structure builds a customer experience that is easier to trust. 
 
-A Website Helps Reduce Marketing Costs Over Time
+## A Website Helps Reduce Marketing Costs Over Time
 
 A 2019 BDC study found the average small business in Canada and the US spent around $30,000 a year on marketing. That might be radio ads, PPC content, or news releases. The most effective and cheapest marketing a business can do is through email. The best place to send clients who click those emails is a professional small business website. 
 
@@ -42,7 +42,7 @@ When your personalized digital marketing strategy is simplified, you save money 
 
 That ties your audience’s intent directly to your services, location, and product. Imagine the savings from this type of marketing effort that you can redirect to product development or hiring another team member to improve customer satisfaction ratings. 
 
-Better Websites Help Businesses Understand Their Customers
+## Better Websites Help Businesses Understand Their Customers
 
 The goal is a modern, mobile-responsive website with valuable content directly addressing your customers’ needs. It should be highly optimized for content, keywords, and an easy-to-understand layout. 
 
@@ -57,7 +57,7 @@ When you have that simple foundation that begins with a professionally designed 
 
 With the right technical consulting about SEO tracking, UI/UX heat mapping, visitation reports, customer data analytics, and more, you can focus your small business’s attentions where they will have the most impact. Smarter marketing decisions focused on areas that generate the strongest results are a wise way to grow your small business and remain competitive online. 
 
-A Quality Small Business Website Gives Your Business Room to Grow
+## A Quality Small Business Website Gives Your Business Room to Grow
 
 Avoiding a website upgrade because you feel overwhelmed by trying to build everything at once isn’t necessary. You also don’t have to commit to a hundred-page site that doesn’t feel right for the size of your business now and where you want to go in the future. 
 

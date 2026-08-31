@@ -150,3 +150,12 @@ content: url("static/icons/blog/toc.svg") / "forward arrow tick";
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
+
+
+#related-posts .blog-post-card {
+border: solid;
+}
+
+#related-posts .blog-cover {
+
+}

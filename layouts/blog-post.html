@@ -50,7 +50,7 @@
         <div class="blog-post-card">
         {{ with .Resources.Get "./cover.png" }}
         <div class="blog-cover">
-          {{ with .Resize "x260" }}
+          {{ with .Resize "400x260" }}
           <img src="{{ .RelPermalink }}" alt="" />
           {{ end }} 
         {{ end }}
