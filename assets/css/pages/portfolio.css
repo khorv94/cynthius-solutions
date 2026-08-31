@@ -42,8 +42,12 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 
 
-#portfolio-projects-main > div > div {
-display: flex;
+.project-card {
+
+}
+
+.project-cover {
+
 }
 
 #portfolio-projects-main > div > div > p {
@@ -51,3 +55,5 @@ display: flex;
 margin-left: auto;
 color: #5C57CD;
 }
+
+
