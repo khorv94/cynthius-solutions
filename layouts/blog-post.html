@@ -34,8 +34,20 @@
           <p class="bold">Contents</p>
         </div>
         <div>
-          {{ .TableOfContents }}</div>
+          {{ .TableOfContents }}
+        </div>
       </div>
+    </div>
+    <div id="post-tags">
+      <p class="bold">Tags: </p>
+      {{ with .Params.tags }}
+      {{ range . }}
+      <div>
+        <p>#{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
 </section>
 
 <section>
