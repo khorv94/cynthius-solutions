@@ -101,3 +101,7 @@ title = 'Cynthius Solutions'
     weight = 80
 
 
+
+
+    [markup.goldmark.renderer]
+      unsafe = true
