@@ -24,6 +24,8 @@ Having an outdated website with old information that is no longer relevant does 
 
 Your upgraded website should feature those strong videos that resonate so well with your target audience that when they share your link, it’s with hot leads. Clear messaging, strong navigation, and well-organized lead-capture elements like intake forms, CTA buttons, and newsletter signups need to be naturally sprinkled into your small business website. That doesn’t require a massive investment. Only a strategic improvement by professional designers. 
 
+{{< img src="Image (2).png" alt="Alt Text" class="img-full">}}
+
 ## Your Website Creates a Central Place for Sales and Leads
 
 It’s easier than ever to be a small business, like a local food truck or mobile pet groomer, and gain a massive following on social media. Calling yourself the “cat whisperer” and filming grooming videos with a few catchphrases can do the trick. You've just got to remember social views won't always equal lead generation. 
@@ -33,6 +35,17 @@ What doesn’t work is when those same social media platforms change due to algo
 You want all your online presences, like social media, Google Business Profile, directory listings, and community pages, to point back to your new website. That consistency ensures the right phone number reaches your potential customers. 
 
 Your business needs a stable online presence where customers can quickly learn about the services you offer, view pricing or a portfolio of work, book services, and read reviews. All that unified structure builds a customer experience that is easier to trust. 
+
+<div class="grid-2">
+
+{{< img src="Image (3).png" alt="Alt Text" class="img-full">}}
+
+{{< img src="Image (4).png" alt="Alt Text" class="img-full">}}
+
+</div>
+
+
+
 
 ## A Website Helps Reduce Marketing Costs Over Time
 
@@ -48,12 +61,23 @@ The goal is a modern, mobile-responsive website with valuable content directly a
 
 When you have that simple foundation that begins with a professionally designed site from an experienced web design agency, you can then capture more customer data. Growth happens when you leverage all the customer behavior insights you can get, like: 
 
-•	What services you offer are the most popular
-•	What pages, articles, or other content drives the most attention
-•	Where your leads are coming from and what they view
-•	How visitors learn about your business
-•	If your local SEO efforts are paying off
-•	What drives conversions the most
+<div class="grid-2">
+
+{{< img src="Image (5).png" alt="Alt Text" class="img-full">}}
+
+- What services you offer are the most popular
+
+- What pages, articles, or other content drives the most attention
+
+- Where your leads are coming from and what they view
+
+- How visitors learn about your business
+
+- If your local SEO efforts are paying off
+
+- What drives conversions the most
+
+</div>
 
 With the right technical consulting about SEO tracking, UI/UX heat mapping, visitation reports, customer data analytics, and more, you can focus your small business’s attentions where they will have the most impact. Smarter marketing decisions focused on areas that generate the strongest results are a wise way to grow your small business and remain competitive online. 
 

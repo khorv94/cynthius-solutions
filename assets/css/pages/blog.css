@@ -144,6 +144,10 @@ content: url("static/icons/blog/toc.svg") / "forward arrow tick";
 }
 
 
+#post-tags {
+display: flex;
+gap: 16px;
+}
 
 
 #related-posts {

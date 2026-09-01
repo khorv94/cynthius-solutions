@@ -20,6 +20,9 @@ With a branded website, you get a single destination. You can send new leads, sp
 
 Instead of having 20 different platforms for online courses, coaching offers, podcasts, digital products, affiliate partnerships, and brand sponsorships, you get a single location built around your branded ecosystem that anyone can explore.
 
+
+{{< img src="image2.png" alt="Alt text" class="img-full">}}
+
 ## You Gain More Control Over Your Creative Content and Branded Identity
 
 Being “popular” on social media is more about delivering trending content. That changes every single day. What gained a lot of views a few months ago may not be the same today. That means your content is shared, changed, AI-influenced, and modified to meet whatever is trending.
@@ -38,23 +41,38 @@ The average millionaire has [7 streams](https://finance.yahoo.com/news/average-m
 
 A website designed by a professional with consulting services ensures you can add the setup designed for additional revenue points. You might have a simple 5-page website built around a strong TikTok shop about gluten-free meal planning. With the right technical consulting and web design agency, you can turn that into a site supporting:
 
-·         Digital product sales
+<div class="grid-2">
 
-·         Online courses
 
-·         Paid memberships
+<div>
 
-·         Affiliate marketing
+{{< img src="image3.png" alt="Alt text" class="img-full">}}
 
-·         Premium newsletters
+</div>
 
-·         Booking systems
+<div style="margin:auto;">
 
-·         Sponsorship opportunities
+- Digital product sales
 
-·         Ad revenue
+- Online courses
 
-·         E-commerce sales
+- Paid memberships
+
+- Affiliate marketing
+
+- Premium newsletters
+
+- Booking systems
+
+- Sponsorship opportunities
+
+- Ad revenue
+
+- E-commerce sales
+
+</div>
+
+</div>
 
 ## Content Creator Websites Build SEO and AEO Long-Term Visibility
 
@@ -69,6 +87,15 @@ What this does is create an authoritative hub that answers questions and gives y
 Having a front and backend web design agency like Cynthius Solutions helps you get the engaging visual aesthetic you want, but also the functional plugins and extensions your creative brand needs.
 
 Most creators want to improve their communities. They need a way to promote new product launches, offer freebies (magnets), and generate email lists through newsletter signups. If you use a free service like Linktree, you miss out because the information doesn’t drive repeated traffic. A website becomes the central location with all the details and contact points your visitors need, helping you capture more emails and leads.
+
+<div class="grid-2">
+
+
+{{< img src="image4.png" alt="Alt text" class="img-full">}}
+
+{{< img src="image5.png" alt="Alt text" class="img-full">}}
+
+</div>
 
 ## Professional Websites Increase Partnership Opportunities for Your Creative Brand
 

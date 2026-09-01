@@ -28,13 +28,16 @@ Those questions could be as basic as: ‘What do you do?’ or more complicated,
 “Anyone can make something more complicated; it takes a genius to simplify.”
 That’s a fundamental principle of design. Just as for logos, furniture, and cars, websites improve via subtraction, removing the unnecessary aspects to focus on what actually delivers results. Designers can then refine the experience around what actually matters.
 Simplicity also has a few other advantages:
-•	It scales easier
-•	It loads faster
-•	It reduces friction
-•	It improves clarity
+
+- It scales easier
+- It loads faster
+- It reduces friction
+- It improves clarity
 
 ## The Six Levels of Premium Creative Work
+
 Truly premium work doesn’t begin with the design. It’s a six-stage process:
+
 1.	Discovery. Understanding the business, audience, and goals.
 2.	Research. Analyzing competitors, users, SEO opportunities, and market positioning.
 3.	Strategy. Planning messaging, user journeys, conversion flow, and site structure.
