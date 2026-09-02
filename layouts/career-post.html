@@ -1,0 +1,94 @@
+{{ define "main" }}
+<section id="app-hero">
+  <div class="wrapper">
+
+  </div>
+</section>
+
+<section>
+  <div class="wrapper">
+    <div id="job-app-content">
+      <div id="app-content">{{ .Content }}</div>
+    </div>
+    <div id="app-tags">
+      <p class="bold">Tags: </p>
+      {{ with .Params.tags }}
+      {{ range . }}
+      <div>
+        <p>#{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+</section>
+
+<section>
+
+
+<div id="app-form">
+  <form action="{{ .Params.endpoint_url }}" method="POST">
+    <div id="app-form-top">
+      <div>
+        <label for="name"
+          ><p class="bright">Name<span class="purple">*</span></p></label
+        >
+        <input
+          type="text"
+          class="app-form-field"
+          id="name"
+          name="name"
+          placeholder="Jane Doe"
+        />
+      </div>
+      <div>
+        <label for="email"
+          ><p class="bright">Email<span class="purple">*</span></p></label
+        >
+        <input
+          type="text"
+          class="app-form-field"
+          id="email"
+          name="email"
+          placeholder="jdoe@company.com"
+        />
+      </div>
+    </div>
+
+    <div id="app-form-bottom">
+      <div>
+        <label for="phone"><p class="bright">Phone Number</p></label>
+        <input
+          type="text"
+          class="app-form-field"
+          id="phone"
+          name="phone"
+          placeholder="(555)123-4567"
+        />
+      </div>
+
+       <div>
+          <label for="file">Choose file to upload</label>
+          <input type="file" id="file" name="file" accept="image/*,.pdf,.doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" multiple />
+       </div>
+      
+      <div id="app-form-message">
+        <label for="message"><p class="bright">Message</p></label>
+        <textarea
+          name="message"
+          id="message"
+          class="app-form-textarea"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+    </div>
+    <div class="btn-primary-no-icon">
+      <input type="submit" value="Get in Touch" />
+    </div>
+  </form>
+</div>
+
+
+</section>
+
+{{ end }}
