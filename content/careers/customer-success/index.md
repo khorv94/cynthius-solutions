@@ -3,8 +3,7 @@ title = 'Customer Success'
 description = ""
 date = 2026-02-11
 draft = false
-tags = ['Design', 'Development', 'Marketing', 'Business']
-keywords = ['web design and development agency', 'consulting services', 'personalized digital marketing', 'front and backend web design agency', 'technical consulting']
+tags = ['Careers']
 layout = 'career-post'
 endpoint_url = 'https://formspree.io/f/mbgjyddz'
 +++
