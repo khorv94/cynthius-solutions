@@ -125,10 +125,32 @@ gap: 20px;
 align-self: stretch;
 }
 
+/* .about-project-name {
+
+}
+
+.about-project-details {
+display: none;
+} */
+
+
+
 
 /* FOUNDER SECTION */
 
 
 #founder-text {
-text-align: center;
+
 }
+
+
+#about-founder {
+display: flex; 
+}
+
+#founder-pic {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
