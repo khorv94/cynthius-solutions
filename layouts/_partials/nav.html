@@ -1,29 +1,39 @@
+  <div id="nav-logo">
+    <a href="/">
+    <img
+      src="/logo.svg"
+      alt="Cynthius Solutions Logo"
+      height="38"
+      width="168"
+    />
+    </a>
+  </div>
 
-    <div id="nav-logo">
-        <p>LOGO!!</p>
-    </div>
+  <div class="md">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
 
-    <div class="md">
-        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-    </div>
+  <div class="sm">
+    <button id="hamburger-button">
+      <a href="#">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="#e3e3e3"
+        >
+          <path
+            d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+          />
+        </svg>
+      </a>
+    </button>
+  </div>
 
-    <div class="sm">
-        <button id="hamburger-button"><a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                    fill="#e3e3e3">
-                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-                </svg>
-            </a>
-        </button>
-    </div>
+  <div class="lg" id="nav-cta">
+    <button id="nav-cta-button"><a href="/contact"><p class="bright">Book Consultation</p></a></button>
+  </div>
 
-    <div class="lg" id="nav-cta">
-        <button>CTA Button</button>
-    </div>
+  <div>{{ partial "menu-mobile.html" (dict "menuID" "mobile" "page" .) }}</div>
 
-
-
-
-    <div>
-        {{ partial "menu-mobile.html" (dict "menuID" "mobile" "page" .) }}
-    </div>

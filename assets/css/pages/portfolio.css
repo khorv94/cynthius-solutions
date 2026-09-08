@@ -1,8 +1,5 @@
 section#portfolio-hero {
-background-image: url("static/images/pages/about-bg.svg");
-background-size: cover;
-background-repeat: no-repeat;
-height: 500px;
+height: 700px;
 }
 
 section#portfolio-hero .wrapper {

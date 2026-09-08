@@ -1,8 +1,5 @@
 section#blog-hero {
-background-image: url("static/images/pages/about-bg.svg");
-background-size: cover;
-background-repeat: no-repeat;
-height: 500px;
+height: 700px;
 }
 
 section#blog-hero .wrapper {
@@ -56,9 +53,6 @@ display: flex;
 
 
 section#blog-post-hero {
-background-image: url("static/images/pages/about-bg.svg");
-background-size: cover;
-background-repeat: no-repeat;
 height: 1100px;
 }
 

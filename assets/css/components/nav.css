@@ -1,5 +1,26 @@
+.nav-hero-bg {
+background-image: url("static/images/pages/hero-bg.svg");
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 30px;
+}
+
+#main-nav {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 28px;
+padding-right: 14px;
+
+border-radius: 100px;
+border: 1px solid rgba(255, 255, 255, 0.05);
+background: rgba(255, 255, 255, 0.04);
+box-shadow: 0 0 34px 0 rgba(0, 0, 0, 0.15);
+}
+
 nav {
  display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 
@@ -18,30 +39,67 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
 }
 
 nav ul li {
   float: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 nav ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+
   text-decoration: none;
+
+  color: var(--white-70, rgba(255, 255, 255, 0.70));
+/* Body/S */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
 }
 
 nav ul li a:hover:not(.active) {
-  background-color: #111111;
+
+/* padding: 6px 8px; */
+/* justify-content: center;
+align-items: center; */
+ 
+ 
+border-radius: 100px;
+background: rgba(255, 255, 255, 0.06);
+
 }
 
 nav ul li a.active {
-  background-color: #04AA6D;
+border-radius: 100px;
+background: rgba(255, 255, 255, 0);
+
+  color: #fff;
+/* Body/S */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
 }
 
 
+#nav-cta-button {
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+
+border-radius: 50px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: rgba(0, 0, 0, 0.10);
+backdrop-filter: blur(12px);
+}
+
+#nav-cta-button a {
+text-decoration: none;
+}
 
 .mobile-menu {
   display: none;

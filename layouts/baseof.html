@@ -7,8 +7,10 @@
     {{ partial "head.html" . }}
   </head>
   <body>
-    
-    <nav id="main-nav">{{ partial "nav.html" . }}</nav>
+    <div class="nav-hero-bg">
+      <div class="wrapper">
+        
+    <nav id="main-nav">{{ partial "nav.html" . }}</nav></div>
     <main>{{ block "main" . }}{{ end }}</main>
     <footer>{{ partial "footer.html" . }}</footer>
 
