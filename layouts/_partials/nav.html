@@ -1,11 +1,12 @@
+<div id="main-nav">
   <div id="nav-logo">
     <a href="/">
-    <img
-      src="/logo.svg"
-      alt="Cynthius Solutions Logo"
-      height="38"
-      width="168"
-    />
+      <img
+        src="/logo.svg"
+        alt="Cynthius Solutions Logo"
+        height="38"
+        width="168"
+      />
     </a>
   </div>
 
@@ -15,7 +16,7 @@
 
   <div class="sm">
     <button id="hamburger-button">
-      <a href="#">
+      <a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="24px"
@@ -32,8 +33,11 @@
   </div>
 
   <div class="lg" id="nav-cta">
-    <button id="nav-cta-button"><a href="/contact"><p class="bright">Book Consultation</p></a></button>
+    <button id="nav-cta-button">
+      <a href="/contact"><p class="bright">Book Consultation</p></a>
+    </button>
   </div>
-
-  <div>{{ partial "menu-mobile.html" (dict "menuID" "mobile" "page" .) }}</div>
-
+</div>
+<div id="mobile-nav">
+{{ partial "menu-mobile.html" (dict "menuID" "mobile" "page" .) }}
+</div>
