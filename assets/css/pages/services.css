@@ -1,15 +1,10 @@
 /* HERO SECTION */
 
-section#services-hero {
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 700px;
-}
+
 
 #services-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
+display: flex;
+flex-direction: column;
 }
 
 #services-content {
@@ -154,6 +149,26 @@ flex: 1 0 0;
 
 
 #services-brand-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
+display: flex;
+flex-direction: column;
+}
+
+
+
+
+
+
+/* (Medium) */
+@media screen and (min-width: 768px) {
+
+#services-grid {
+display: flex;
+flex-direction: row;
+}
+
+#services-brand-grid {
+display: flex;
+flex-direction: row;
+}
+
 }
