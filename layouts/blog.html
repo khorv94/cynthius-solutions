@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-<section id="blog-hero">{{ partial "blog/hero.html" }}</div></section>
+<section id="blog-hero">{{ partial "blog/hero.html" }}</div>
+</section>
 
 <section>
   <div class="wrapper">
@@ -16,23 +17,49 @@
       </div>
     </div>
     <div id="blog-posts">
-      
+
       {{ $posts := where .Site.RegularPages "Section" "blog" }}
       {{ $posts = $posts.ByDate.Reverse }}
-      
-      
-      
-      
+
+
+
+
 
 
 
       {{ range (.Paginate $posts 4).Pages }}
       <div class="blog-post-card">
-        {{ with .Resources.Get "./cover.png" }}
+       
+
+
+
+
+
+
+
+
+        {{ $coverImage := .Resources.Get "./cover.png" }}
+        {{ if $coverImage }}
+        
+        {{ $coverWebP := $coverImage.Resize "610x320 webp q85" }}
+        {{ $coverWebPSmall := $coverImage.Resize "320x200 webp q85" }}
+        
         <div class="blog-cover">
-          {{ with .Resize "600x300" }}
-          <img src="{{ .RelPermalink }}" alt="" />
-          {{ end }} 
+          <img src="{{ $coverWebP.RelPermalink }}"
+            srcset="{{ $coverWebPSmall.RelPermalink }} 320w, {{ $coverWebP.RelPermalink }} 610w"
+            sizes="(width <= 768px) 320px, 610px" 
+            alt="" 
+            class=""
+            loading="eager" 
+            fetchpriority="high" />
+          
+          {{ else }}
+
+          {{/* Fallback to static image */}}
+          <img src="/images/tailbliss-rocket-indigo.webp" alt="TailBliss Hero"
+            class="" width="576" height="576" loading="eager"
+            fetchpriority="high" />
+          
         {{ end }}
         </div>
 
@@ -46,8 +73,7 @@
           <p>{{ .Description }}</p>
           <div class="read-more">
             <p>
-              <a href="{{ .RelPermalink }}"
-                >Read More
+              <a href="{{ .RelPermalink }}">Read More
                 <img src="/icons/blog/arrow-forward.svg" />
               </a>
             </p>

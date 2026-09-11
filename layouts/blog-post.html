@@ -14,22 +14,53 @@
         <img src="/icons/blog/eye.svg" />
         <p>1,200</p>
       </div>
-      {{ with .Resources.Get "./cover.png" }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {{ $coverImage := .Resources.Get "./cover.png" }}
+      {{ if $coverImage }}
+
+      {{ $coverWebP := $coverImage.Resize "1200x600 webp q85" }}
+      {{ $coverWebPSmall := $coverImage.Resize "320x250 webp q85" }}
+
+
       <div class="blog-post-cover">
-        {{ with .Resize "x600" }}
-        <div>
-          <img src="{{ .RelPermalink }}" alt="" />
-        </div>
-        {{ end }} {{ end }}
+        <img src="{{ $coverWebP.RelPermalink }}"
+          srcset="{{ $coverWebPSmall.RelPermalink }} 320w, {{ $coverWebP.RelPermalink }} 1200w"
+          sizes="(width <= 768px) 320px, 1200px" alt="" class="" loading="eager" fetchpriority="high" />
+
+        {{ else }}
+
+        {{/* Fallback to static image */}}
+        <img src="/images/tailbliss-rocket-indigo.webp" alt="TailBliss Hero" class="" width="576" height="576"
+          loading="eager" fetchpriority="high" />
+
+        {{ end }}
       </div>
     </div>
   </div>
-</div>
+  </div>
 </section>
 <section>
   <div class="wrapper">
-    <div id="blog-post-content">
-      <div id="post-content">{{ .Content }}</div>
+    <div id="blog-post">
+
       <div id="post-toc">
         <div id="toc-heading">
           <p class="bold">Contents</p>
@@ -38,17 +69,26 @@
           {{ .TableOfContents }}
         </div>
       </div>
-    </div>
-    <div id="post-tags">
-      <p class="bold">Tags: </p>
-      {{ with .Params.tags }}
-      {{ range . }}
-      <div>
-        <p>#{{ . }}</p>
+
+
+      <div id="post-content">
+        {{ .Content }}
+
+        <div id="post-tags">
+          <p class="bold">Tags: </p>
+          {{ with .Params.tags }}
+          {{ range . }}
+          <div>
+            <p>#{{ . }}</p>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
       </div>
-      {{ end }}
-      {{ end }}
+
+
     </div>
+
 </section>
 
 <section>
@@ -58,15 +98,26 @@
     </div>
     <div id="related-posts">
       {{ with .Site.RegularPages.Related . | first 3 }}
-      
-        {{ range . }}
-        <div class="blog-post-card">
-        {{ with .Resources.Get "./cover.png" }}
+
+      {{ range . }}
+      <div class="blog-post-card">
+        {{ $relatedImage := .Resources.Get "./cover.png" }}
+        {{ if $relatedImage }}
+
+        {{ $relatedWebP := $relatedImage.Resize "400x260 webp q85" }}
+        {{ $relatedWebPSmall := $relatedImage.Resize "270x200 webp q85" }}
         <div class="blog-cover">
-          {{ with .Resize "400x260" }}
-          <img src="{{ .RelPermalink }}" alt="" />
-          {{ end }} 
-        {{ end }}
+          <img src="{{ $relatedWebP.RelPermalink }}"
+            srcset="{{ $relatedWebPSmall.RelPermalink }} 270w, {{ $relatedWebP.RelPermalink }} 400w"
+            sizes="(width <= 768px) 270px, 400px" alt="" class="" loading="eager" fetchpriority="high" />
+
+          {{ else }}
+
+          {{/* Fallback to static image */}}
+          <img src="/images/tailbliss-rocket-indigo.webp" alt="TailBliss Hero" class="" width="576" height="576"
+            loading="eager" fetchpriority="high" />
+
+          {{ end }}
         </div>
 
         <div>
@@ -79,16 +130,15 @@
           <p>{{ .Description }}</p>
           <div class="read-more">
             <p>
-              <a href="{{ .RelPermalink }}"
-                >Read More
+              <a href="{{ .RelPermalink }}">Read More
                 <img src="/icons/blog/arrow-forward.svg" />
               </a>
             </p>
           </div>
         </div>
       </div>
-        {{ end }}
-      
+      {{ end }}
+
       {{ end }}
     </div>
   </div>
