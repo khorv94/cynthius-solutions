@@ -1,22 +1,16 @@
 /* HERO SECTION */
 
-section#home-hero {
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 900px;
-}
+
 
 .eyebrow {
 margin: auto;
-margin-top: 118px;
 padding: 0px 18px 0px 18px;
 max-width: max-content;
-max-height: 34px;
 display: flex;
 align-items: center;
 justify-content: center;
 gap: 8px;
+
 border-radius: 100px;
 border: 1px solid rgba(255, 255, 255, 0.12);
 background: rgba(255, 255, 255, 0.07);
@@ -29,10 +23,6 @@ height: 8px;
 aspect-ratio: 1/1;
 }
 
-#hero-body {
-max-width: 950px;
-margin: auto;
-}
 
 #hero-buttons {
 display: flex; 
@@ -59,13 +49,6 @@ align-items: center;
 
 
 
-section#brand {
-background: rgba(255, 255, 255, 0.70);
-padding-top: 100px;
-padding-left: auto;
-padding-right: auto;
-
-}
 
 .wrapper#brand {
 display: flex;
@@ -104,16 +87,16 @@ align-self: stretch;
 
 
 #brand-system {
+/* margin-right: 50px; */
+
+  border: dashed;
 display: flex;
-padding: 28px;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
-gap: 30px;
-flex-shrink: 0;
+align-items: center;
 
 border-radius: 30px;
-border: 1.5px solid var(--White, #FFF);
+/* border: 1.5px solid var(--White, #FFF); */
 background: rgba(255, 255, 255, 0.50);
 box-shadow: 0 0 34px 0 rgba(0, 0, 0, 0.08);
 backdrop-filter: blur(22px);
@@ -152,30 +135,16 @@ align-self: stretch;
 
 #brand-system-desc {
 display: flex;
-width: 512px;
 justify-content: space-between;
 align-items: center;
 }
 
-#brand-system-desc h3 {
-flex-shrink: 0;
-width: 225px;
-}
-
-#brand-system-desc p {
-text-align: right;
-width: 196px;
-flex-shrink: 0;
-}
-
-
 
 #brand-system-cards {
   display: grid;
-grid-template-columns: 160px 160px 160px;
-grid-template-rows: auto auto;
-  gap: 14px;
-  row-gap: 14px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+
 
 background: rgba(255, 255, 255, 0.20);
 box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02);
@@ -183,8 +152,8 @@ align-items: center;
 }
 
 #brand-system-card {
-padding: 16px;
   text-align: left;
+
   border-radius: 10px;
 background: var(--White, #FFF);
 box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02);
@@ -192,22 +161,18 @@ box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02);
 }
 
 #brand-system-bottom {
-max-width: 500px;
 display: flex;
-padding: 6px 14px;
 justify-content: center;
 align-items: center;
 gap: 10px;
-align-self: stretch;
+
 
 border-radius: 10px;
 border: 1px solid rgba(92, 87, 205, 0.20);
 background: rgba(92, 87, 205, 0.06);
 }
 
-#brand-system-bottom > p {
-flex: 1 0 0;
-}
+
 
 
 
@@ -231,22 +196,8 @@ display: block;
 
 /* SERVICES SECTION */
 
-.wrapper#services {
-padding-top:100px;
-}
 
 
-
-#services-text {
-display: flex;
-max-width: 80%;
-margin: 0 auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 16px;
-text-align: center;
-}
 
 
 
@@ -307,13 +258,11 @@ margin: auto;
 /* TESTIMONIALS SECTION */
 
 section#testimonials {
-display: flex;
-flex-direction: column;
-align-items: center;
+
 background-image: url("static/images/pages/testimonials-bg.svg");
 background-size: cover;
 background-repeat: no-repeat;
-height: 598px;
+
 }
 
 .wrapper#testimonials {
@@ -334,9 +283,6 @@ flex-direction: column;
 #testimonial-content {
 display: flex;
 flex-direction: column;
-/* align-items: center; */
-/* justify-content: center; */
-/* gap: 20px; */
 }
 
 
@@ -353,12 +299,6 @@ border: 1px solid rgba(92, 87, 205, 0.20);
 background: rgba(92, 87, 205, 0.06);
 backdrop-filter: blur(7px);
 }
-
-#testimonial-content > h2 {
-margin-top: 0;
-margin-bottom: 0;
-}
-
 
 #testimonial-buttons-lg {
 display: none;
@@ -399,11 +339,7 @@ margin: auto;
 
 #testimonial-card {
 display: flex;
-width: 568px;
-padding: 34px 32px 36px 32px;
 flex-direction: column;
-align-items: flex-start;
-gap: 22px;
 
 border-radius: 20px;
 border: 1px solid rgba(255, 255, 255, 0.20);
@@ -433,15 +369,6 @@ background: var(--Purple, #5C57CD);
 
 /* PLATFORMS SECTION  */
 
-.wrapper#platforms {
-display: flex;
-/* padding: 104px 100px; */
-flex-direction: column;
-justify-content: center;
-align-items: center;
-align-self: stretch;
-}
-
 .wrapper#platforms > h2 {
 margin-top: 0;
 margin-bottom: 0;
@@ -450,10 +377,6 @@ margin-bottom: 0;
 .wrapper#platforms > p {
   text-align: center;
 
-}
-
-.wrapper#platforms > p.section-heading {
-margin-top: 100px;
 }
 
 #pills {
