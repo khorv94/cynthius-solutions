@@ -7,10 +7,8 @@ background-repeat: no-repeat;
 
 
 nav {
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left: 28px;
-padding-right: 14px;
+
+
 
 
 border: 1px solid rgba(255, 255, 255, 0.05);
@@ -23,6 +21,9 @@ box-shadow: 0 0 34px 0 rgba(0, 0, 0, 0.15);
 display: flex;
  justify-content: center;
  align-items: center;
+ height: 74px;
+ padding-left: 28px;
+ padding-right: 14px;
 }
 
 
@@ -167,6 +168,7 @@ padding-top: 30px;
 nav {
 border-radius: 100px;
   max-width: 1200px;
+  width: 90%;
   margin: auto;
 }
 
