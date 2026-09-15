@@ -9,6 +9,7 @@ button {
 }
 
 .btn-primary {
+height: 56px;
 display: flex;
 padding: 10px 10px 10px 24px;
 justify-content: center;
@@ -34,7 +35,6 @@ text-decoration: none;
 display: flex;
 width: 36px;
 height: 36px;
-padding: 8px;
 justify-content: center;
 align-items: center;
 aspect-ratio: 1/1;
