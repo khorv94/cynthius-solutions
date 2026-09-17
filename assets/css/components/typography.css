@@ -8,13 +8,24 @@ font-weight: 600;
 line-height: 110%; /* 88px */   
 }
 
+.hero-heading {
+color: #FFF;
+text-align: center;
+font-family: Sora;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 88px */   
+}
+
+
 .highlight {
 background: linear-gradient(90deg, #B8B5FF 0%, #CECCFF 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-family: Sora;
-font-size: 47.78px;
+font-size: inherit;
 font-style: normal;
 font-weight: 600;
 line-height: 110%;
