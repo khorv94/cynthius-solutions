@@ -90,6 +90,8 @@ line-height: 150%; /* 18px */
 letter-spacing: -0.36px;
 }
 
+
+
 p.small-font-white {
 color: var(--white-70, rgba(255, 255, 255, 0.70));
 /* Body/SM */
@@ -103,13 +105,13 @@ letter-spacing: -0.36px;
 
 p.small-font-purple {
 color: #8F8BFF;
-/* Body/SM */
+/* Label/S */
 font-family: Poppins;
-font-size: 13.33px;
+font-size: 12px;
 font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 18px */
-letter-spacing: -0.36px;
+font-weight: 600;
+line-height: 12px; /* 120% */
+letter-spacing: 1.2px;
 }
 
 p {
@@ -146,6 +148,16 @@ font-weight: 400;
 line-height: 150%; /* 24px */
 margin-top: 0px;
 margin-bottom: 0px;
+}
+
+p.bright-bold {
+color: #FFF;
+/* Heading/H5 */
+font-family: Sora;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 24px */
 }
 
 p.bold {

@@ -8,24 +8,21 @@ flex-direction: column;
 }
 
 #services-content {
+  flex: 1;
 display: flex;
 flex-direction: column;
+align-items: flex-start;
 justify-content: center;
-padding-top: 50px;
-padding-bottom: 50px;
+gap: 58px;
+
 }
 
-#services-content h2 {
-margin-top: auto;
-}
 
-#services-content button {
-margin-top: auto;
-}
+
 
 #services-stack {
 display: flex;
-width: 570px;
+flex: 1;
 padding: 26px;
 flex-direction: column;
 align-items: flex-start;
@@ -43,9 +40,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 align-self: stretch;
-max-height: 36px;
-margin-top: 26px;
-margin-bottom: 26px;
 }
 
 #services-stack-dots {
@@ -59,7 +53,7 @@ gap: 9px;
 margin-left: auto;
 padding: 0px 18px 0px 18px;
 max-width: max-content;
-max-height: 34px;
+height: 34px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -70,23 +64,25 @@ background: rgba(92, 87, 205, 0.06);
 backdrop-filter: blur(7px);
 }
 
-#services-stack-container > hr {
+#services-stack > hr {
+width: 100%;
 margin-bottom: 26px;
+border-color: #FFFFFF14;
 }
 
 
 
 #services-stack-cards {
-  display: grid;
+display: grid;
 grid-template-columns: auto auto auto;
 grid-template-rows: auto auto auto;
 grid-auto-flow: column;
-  gap: 14px;
-  row-gap: 14px;
+gap: 14px;
+row-gap: 14px;
 
-/* background: rgba(255, 255, 255, 0.20); */
-/* box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02); */
-align-items: center;
+
+box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02);
+
 
 
 }
@@ -101,7 +97,7 @@ gap: 10px;
 
 border-radius: 18px;
 border: 1px solid rgba(255, 255, 255, 0.13);
-background: rgba(255, 255, 255, 0.08);
+background: rgba(255, 255, 255, 0.034);
 backdrop-filter: blur(9px);
 
 }
@@ -116,36 +112,22 @@ padding: 16px;
 background: var(--White, #FFF);
 box-shadow: 0 0 20px 0 rgba(41, 17, 74, 0.02);
 grid-row: span 3;
-height: 100%;
 
-border-radius: 18px;
-border: 1px solid rgba(255, 255, 255, 0.13);
-background: rgba(255, 255, 255, 0.08);
-backdrop-filter: blur(9px);
+border-radius: 16px;
+background: var(--Gradient, linear-gradient(110deg, #5C57CD 1.28%, #332E9D 99.01%));
 }
 
-#services-stack-bottom {
-max-width: 500px;
-display: flex;
-padding: 6px 14px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-align-self: stretch;
 
-border-radius: 10px;
-border: 1px solid rgba(92, 87, 205, 0.20);
-background: rgba(92, 87, 205, 0.06);
-}
-
-#services-stack-bottom > p {
-flex: 1 0 0;
-}
 
 
 
 
 /* BRAND SECTION */
+
+.wrapper#services-brand {
+padding-top: 100px;
+padding-bottom: 100px;
+}
 
 
 #services-brand-grid {
@@ -153,6 +135,18 @@ display: flex;
 flex-direction: column;
 }
 
+#services-brand-grid div {
+flex: 1;
+}
+
+
+#services-brand-image {
+margin-right: 60px;
+}
+
+#services-brand-content button {
+margin-top: 32px;
+}
 
 
 
@@ -162,8 +156,10 @@ flex-direction: column;
 @media screen and (min-width: 768px) {
 
 #services-grid {
+margin-top: 80px;
 display: flex;
 flex-direction: row;
+margin-bottom: 90px;
 }
 
 #services-brand-grid {
@@ -171,4 +167,99 @@ display: flex;
 flex-direction: row;
 }
 
+}
+
+
+/* SERVICES SECTION */
+
+
+section#services-services {
+background-image: url("static/decor-ellipse.svg");
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+}
+
+
+#services-text {
+margin-top: 100px;
+text-align: center;
+}
+
+
+#services-text-desc {
+max-width: 75%;
+margin: auto;
+}
+
+
+
+#services-cards {
+display: flex;
+flex-direction: column;
+}
+
+
+#services-card {
+flex: 1;
+display: flex;
+
+border-radius: 20px;
+border: 1.5px solid var(--White, #FFF);
+background: rgba(255, 255, 255, 0.50);
+backdrop-filter: blur(17px);
+}
+
+
+
+/* (Medium) */
+@media screen and (min-width: 768px) {
+
+#services-cards {
+ 
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 22px;
+
+margin-top: 60px;
+margin-bottom: 60px;
+
+}
+
+#services-card {
+padding: 32px;
+display: flex;
+flex-direction: column;
+
+border-radius: 20px;
+border: 1.5px solid var(--White, #FFF);
+background: rgba(255, 255, 255, 0.50);
+backdrop-filter: blur(17px);
+}
+
+}
+
+
+#services-card > img {
+margin-bottom: 34px;
+
+border-radius: 60px;
+background: #fff;
+box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.08);
+
+}
+
+#services-btn {
+margin: auto;
+margin-bottom: 60px;
+}
+
+
+
+/* CTA SECTION!!! */
+
+
+section#services-cta {
+padding-top: 100px;
 }
