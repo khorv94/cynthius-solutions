@@ -1,6 +1,8 @@
 +++
-title = 'Nebula Portfolio Website Design'
-description = "Some clients need a more creative portfolio website. Nebula provides an image-focused presence with contrasting light and dark modes and a clean, responsive layout."
+title = 'Nebula Project'
+description = 'Visual Portfolio Website Design'
+meta_title = 'Nebula Portfolio Website Design'
+meta_description = "Some clients need a more creative portfolio website. Nebula provides an image-focused presence with contrasting light and dark modes and a clean, responsive layout."
 date = 2026-02-11
 draft = false
 project_type = 'Blog'
@@ -9,9 +11,7 @@ keywords = ['portfolio website design', 'creative portfolio website', 'professio
 tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 layout = 'portfolio-project'
 +++
-## Nebula Project
-
-**_Visual Portfolio Website Design_**
+## Introduction
 
 Plenty of professionals in the online world are content or media creators. Everyone from artists to YouTube personalities. Each needs a portfolio website design that builds strong imagery and offers flexible viewing options across devices, while organizing content in a way that aligns with the creator’s skills and ideas.
 

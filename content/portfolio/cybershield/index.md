@@ -1,6 +1,8 @@
 +++
-title = 'CyberShield IT Services Website Development'
-description = "A unique technology company website project focused on CyberShield IT services with a responsive design format and scalable functionality for expanding the business."
+title = 'CyberShield Project'
+description = 'Modern IT Services Website Development'
+meta_title = 'CyberShield IT Services Website Development'
+meta_description = "A unique technology company website project focused on CyberShield IT services with a responsive design format and scalable functionality for expanding the business."
 date = 2026-02-11
 draft = false
 project_type = 'Saas'
@@ -9,9 +11,7 @@ keywords = ['IT services website development', 'technology company website', 'cy
 tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 layout = 'portfolio-project'
 +++
-## CyberShield Project
-
-**_Modern IT Services Website Development_**
+## Introduction
 
 A technology company has to evolve quickly. New products and threats are around every corner of the online world. That means the website has to provide an engaging format with professional reassurance, as well as the opportunity to scale when new services are required.
 

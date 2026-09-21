@@ -1,6 +1,8 @@
 +++
-title = 'Cleaner Service Business Website Development'
-description = "Ensure online visibility, rapid updates, and more client engagement with a local business website design using the Cleaner project from Cynthius Solutions."
+title = 'Cleaner Project'
+description = 'Local Service Business Website Development'
+meta_title = 'Cleaner Service Business Website Development'
+meta_description = "Ensure online visibility, rapid updates, and more client engagement with a local business website design using the Cleaner project from Cynthius Solutions."
 date = 2026-02-11
 draft = false
 project_type = 'Business'
@@ -9,9 +11,7 @@ keywords = ['service business website development', 'local business website desi
 tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 layout = 'portfolio-project'
 +++
-## Cleaner Project
-
-**_Local Service Business Website Development_**
+## Introduction
 
 Search for any “cleaner service near me” inquiry on Google, and you’ll be flooded with responses. There is often extremely high demand in any service industry, including home and business cleaners. To meet that demand, a responsive service business website with plenty of white space is needed.
 

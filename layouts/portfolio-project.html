@@ -1,20 +1,25 @@
 {{ define "main" }}
-<section id="project-hero">
+<section>
   <div class="wrapper">
-    <div>
-      {{ partial "breadcrumbs.html" . }}
+    {{ partial "breadcrumbs.html" . }}
+    <div id="project-hero">
+      <div>
       <h2>{{ .Title }}</h2>
-      
-      
-      
+      <p>{{ .Description }}</p>
+      </div>
+     
     </div>
+  </div>
   </div>
 </section>
 
 <section>
-    <div class="wrapper">
-        <iframe src="{{ .Params.project_url }}" height="800" width="1200" title="{{ .Title }}"></iframe>
+  <div class="wrapper">
+    <div id="project-demo">
+    <img src="/images/portfolio/macbook.svg">
+    <iframe src="{{ .Params.project_url }}" height="565" width="810" title="{{ .Title }}"></iframe>
     </div>
+  </div>
 </section>
 
 <section>
@@ -25,7 +30,7 @@
 
 
 <section>
-{{ partial "cta.html" }}
+  {{ partial "cta.html" }}
 </section>
 
 {{ end }}

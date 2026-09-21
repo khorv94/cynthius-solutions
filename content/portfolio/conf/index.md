@@ -1,6 +1,8 @@
 +++
-title = 'Conf Event & Conference Website Development'
-description = "Get a powerful, immersive conference website design with a flexible management structure using the Conf project developed by Cynthius Solutions."
+title = 'Conf Project'
+description = 'Engaging Event & Conference Website Development'
+meta_title = 'Conf Event & Conference Website Development'
+meta_description = "Get a powerful, immersive conference website design with a flexible management structure using the Conf project developed by Cynthius Solutions."
 date = 2026-02-11
 draft = false
 project_type = 'Business'
@@ -9,9 +11,7 @@ keywords = ['event website development', 'conference website design', 'event web
 tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 layout = 'portfolio-project'
 +++
-## Conf Project
-
-**_Engaging Event & Conference Website Development_**
+## Introduction
 
 A lot goes into planning the perfect event. A crucial component of that organization is having a responsive, easy-to-scan event website development project. That can bring locations, presenters, sessions, sponsors, and all other event details into a unified space that everyone, from the caterer to news inquiries, can view.
 

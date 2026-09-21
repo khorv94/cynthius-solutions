@@ -1,6 +1,8 @@
 +++
-title = 'Optimize SaaS Website Development'
-description = "The Optimize portfolio project uses a startup web development process with responsive visuals, performance, and scalable pages that can be adapted to multiple businesses."
+title = 'Optimize Project'
+description = 'Scalable & Responsive SaaS Website'
+meta_title = 'Optimize SaaS Website Development'
+meta_description = "The Optimize portfolio project uses a startup web development process with responsive visuals, performance, and scalable pages that can be adapted to multiple businesses."
 date = 2026-02-11
 draft = false
 project_type = 'E-Commerce'
@@ -9,9 +11,8 @@ keywords = ['SaaS website development', 'SaaS web design', 'startup website deve
 tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 layout = 'portfolio-project'
 +++
-## Optimize Project
+## Introduction
 
-**_Scalable & Responsive SaaS Website_**
 
 Organizations spend millions on SaaS services to maintain operations. That means the SaaS web design has to meet a certain level of professionalism while clearly informing clients about what is offered, how much it will cost, and how to proceed with any customization.
 

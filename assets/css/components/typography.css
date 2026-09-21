@@ -58,7 +58,19 @@ margin-bottom: 0px;
 h3 {
 color: var(--Black, #000);
 font-family: Sora;
-font-size: 33.18px;
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 33.6px */
+letter-spacing: -0.48px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+h3.h3-card-title {
+color: var(--Black, #000);
+font-family: Sora;
+font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: 140%; /* 33.6px */

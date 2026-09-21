@@ -1,6 +1,8 @@
 +++
-title = 'Thomson Personal Portfolio Website Project'
-description = "Explore the Thomson portfolio website project from Cynthius Solutions, combining a minimalist design, fast performance, and project-focused presentation."
+title = 'Thomson Project'
+description = 'Minimalist Portfolio Website Development'
+meta_title = 'Thomson Personal Portfolio Website Project'
+meta_description = "Explore the Thomson portfolio website project from Cynthius Solutions, combining a minimalist design, fast performance, and project-focused presentation."
 date = 2026-02-11
 draft = false
 project_type = 'Portfolio'
@@ -9,9 +11,7 @@ keywords = ['portfolio website development', 'portfolio web design', 'profession
 tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 layout = 'portfolio-project'
 +++
-## Thomson Project
-
-**_Minimalist Portfolio Website Development_**
+## Introduction
 
 Everyone from photographers to IT consultants needs portfolio web design. Having a professional way to present what you can do and how it can address clients’ needs is essential for generating more prospective leads. It’s also a powerful way to showcase art projects, clothing designs, and other personal endeavors.
 

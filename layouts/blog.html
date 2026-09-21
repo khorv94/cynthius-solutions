@@ -29,7 +29,7 @@
 
       {{ range (.Paginate $posts 4).Pages }}
       <div class="blog-post-card">
-       
+
 
 
 
@@ -40,27 +40,22 @@
 
         {{ $coverImage := .Resources.Get "./cover.png" }}
         {{ if $coverImage }}
-        
+
         {{ $coverWebP := $coverImage.Resize "610x320 webp q85" }}
         {{ $coverWebPSmall := $coverImage.Resize "320x200 webp q85" }}
-        
+
         <div class="blog-cover">
           <img src="{{ $coverWebP.RelPermalink }}"
             srcset="{{ $coverWebPSmall.RelPermalink }} 320w, {{ $coverWebP.RelPermalink }} 610w"
-            sizes="(width <= 768px) 320px, 610px" 
-            alt="" 
-            class=""
-            loading="eager" 
-            fetchpriority="high" />
-          
+            sizes="(width <= 768px) 320px, 610px" alt="" class="" loading="eager" fetchpriority="high" />
+
           {{ else }}
 
           {{/* Fallback to static image */}}
-          <img src="/images/tailbliss-rocket-indigo.webp" alt="TailBliss Hero"
-            class="" width="576" height="576" loading="eager"
-            fetchpriority="high" />
-          
-        {{ end }}
+          <img src="/images/tailbliss-rocket-indigo.webp" alt="TailBliss Hero" class="" width="576" height="576"
+            loading="eager" fetchpriority="high" />
+
+          {{ end }}
         </div>
 
         <div>
@@ -69,12 +64,12 @@
             {{ $format := "02 January 2006" }}
             <p>{{ .Date.Format $format }}</p>
           </div>
-          <h3>{{ .Title }}</h3>
+          <h3 class="h3-card-title">{{ .Title }}</h3>
           <p>{{ .Description }}</p>
           <div class="read-more">
             <p>
               <a href="{{ .RelPermalink }}">Read More
-                <img src="/icons/blog/arrow-forward.svg" />
+                <img src="/icons/arrow-forward.svg" />
               </a>
             </p>
           </div>

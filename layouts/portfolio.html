@@ -1,14 +1,12 @@
 {{ define "main" }}
 
-<section id="portfolio-hero">
-  {{ partial "portfolio/hero.html" }}
-  </div>
+<section id="portfolio-hero">{{ partial "portfolio/hero.html" }}</div>
 </section>
 
 <section>
   <div class="wrapper">
     <div id="portfolio-projects-top">
-      <h2>Some Recent Projects</h2>
+      <h2>Recent portfolio projects</h2>
       <div>
         <p>All</p>
         <p>UI Design</p>
@@ -19,7 +17,9 @@
       </div>
     </div>
 
-    <div id="portfolio-projects-main">
+
+
+    <div id="portfolio-projects">
 
       {{ $projects := where .Site.RegularPages "Section" "portfolio" }}
       {{ $projects = $projects.ByDate.Reverse }}
@@ -30,30 +30,47 @@
 
 
 
-      {{ range (.Paginate $projects 6).Pages }}
-      <div class="project-card">
-        {{ with .Resources.Get "./cover.png" }}
-        <div class="project-cover">
-          {{ with .Resize "300x600" }}
-          <img src="{{ .RelPermalink }}" alt="" />
-          {{ end }}
+      {{ range (.Paginate $projects 4).Pages }}
+
+      <div class="portfolio-project-card">
+
+        {{ $coverImage := .Resources.Get "./cover.png" }}
+        {{ if $coverImage }}
+
+        {{ $coverWebP := $coverImage.Resize "530x408 webp q85" }}
+        {{ $coverWebPSmall := $coverImage.Resize "320x200 webp q85" }}
+
+        <div class="portfolio-cover">
+          <p class="portfolio-cover-pill">{{ .Params.project_type }}</p>
+          <img src="{{ $coverWebP.RelPermalink }}"
+            srcset="{{ $coverWebPSmall.RelPermalink }} 320w, {{ $coverWebP.RelPermalink }} 610w"
+            sizes="(width <= 768px) 320px, 610px" alt="" class="" loading="eager" fetchpriority="high" />
+
+          {{ else }}
+
+          {{/* Fallback to static image */}}
+          <img src="/images/tailbliss-rocket-indigo.webp" alt="TailBliss Hero" class="" width="576" height="576"
+            loading="eager" fetchpriority="high" />
+
           {{ end }}
         </div>
 
-        <div>
-          <h3>{{ .Title }}</h3>
-          <p>{{ .Params.project_type }}</p>
-        </div>
+        <div class="portfolio-text">
 
-        <p>{{ .Description }}</p>
-        <div class="read-more">
-            <p>
-              <a href="{{ .RelPermalink }}"
-                >Learn More
-                <img src="/icons/blog/arrow-forward.svg" />
+          <h3 class="h3-card-title">{{ .Title }}</h3>
+          <div>
+            <p>{{ .Description }}</p>
+       
+
+              <a href="{{ .RelPermalink }}">
+                <img src="/icons/arrow-forward.svg" />
               </a>
-            </p>
+
+        
           </div>
+
+
+        </div>
       </div>
       {{ end }}
     </div>
@@ -61,13 +78,8 @@
       {{ partial "pagination.html" . }}
     </div>
   </div>
-  <div id="portfolio-projects-bottom"></div>
-  </div>
-
 </section>
 
-<section>
-  {{ partial "cta-alt.html" }}
-</section>
+<section>{{ partial "cta-alt.html" }}</section>
 
 {{ end }}

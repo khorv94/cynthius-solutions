@@ -1,6 +1,8 @@
 +++
-title = 'Adrian E-Commerce Website Project'
-description = "Check out how the Adrian e-commerce website project from Cynthius Solutions provides a faster online presence through optimized assets and SnipCart integration."
+title = 'Adrian Project'
+description = 'Flexible E-Commerce Website Development'
+meta_title = 'Adrian E-Commerce Website Project'
+meta_description = "Check out how the Adrian e-commerce website project from Cynthius Solutions provides a faster online presence through optimized assets and SnipCart integration."
 date = 2026-02-11
 draft = false
 project_type = 'E-Commerce'
@@ -9,9 +11,7 @@ keywords = ['e-commerce website development', 'e-commerce web design', 'online s
 tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 layout = 'portfolio-project'
 +++
-## Adrian Project
-
-**_Flexible E-Commerce Website Development_**
+## Introduction
 
 There are between 28 and 31 million e-commerce sites operating worldwide. That can put any newcomer at a serious disadvantage. To rise to the top, modern digital stores require e-commerce website development blending engaging visuals that attract consumers with technical functionality for faster product presentation and transactions.
 

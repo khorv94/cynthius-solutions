@@ -1,6 +1,8 @@
 +++
-title = 'Galaxy Blog Website Development'
-description = "Showcase news and content creation using an easy-to-search custom blog design with the Galaxy project by Cynthius Solutions."
+title = 'Galaxy Project'
+description = 'Content-Focused Blog Website Development'
+meta_title = 'Galaxy Blog Website Development'
+meta_description = "Showcase news and content creation using an easy-to-search custom blog design with the Galaxy project by Cynthius Solutions."
 date = 2026-02-11
 draft = false
 project_type = 'Blog'
@@ -9,9 +11,7 @@ keywords = ['blog website development', 'custom blog design', 'content website d
 tags = ['UI Design', 'UX Design', 'Development', 'Application', 'Business']
 layout = 'portfolio-project'
 +++
-## Galaxy Project
-
-**_Content-Focused Blog Website Development_**
+## Introduction
 
 Blogs are not dead. If anything, they are becoming more important as readers come to trust the content being presented. People want original voices and will flock to something that uses clean blog website development and has a distinctive visual identity.
 
