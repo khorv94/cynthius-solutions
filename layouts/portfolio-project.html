@@ -13,11 +13,19 @@
   </div>
 </section>
 
-<section>
+<section id="project">
   <div class="wrapper">
     <div id="project-demo">
-    <img src="/images/portfolio/macbook.svg">
-    <iframe src="{{ .Params.project_url }}" height="565" width="810" title="{{ .Title }}"></iframe>
+    <img src="/images/portfolio/macbook.svg" class="project-macbook">
+
+    <div id="project-landing">
+    {{ $landingImage := .Resources.Get "./landing.png" }}
+      {{ $landingWebP := $landingImage.Resize "900x webp q100" }}
+
+    <img src="{{ $landingWebP.RelPermalink }}" class="landing-image">
+    </div>
+  
+
     </div>
   </div>
 </section>

@@ -99,15 +99,26 @@ margin-left: auto;
 }
 
 
-#project-demo img {
-width: 1100px;
-height: 629px;
+.project-macbook {
+width: 1200px;
+
 }
 
-#project-demo iframe {
-border: none;
-padding-bottom: 70px;
-margin-top: -800px;
-margin-left: 140px;
+#project-landing {
+overflow: scroll;
+max-height: 630px;
+width: max-content;
+
+margin-top: -685px;
+margin-left: 150px;
+
 border-radius: 16px;
+}
+
+.landing-image {
+}
+
+
+section#project {
+    margin-bottom: 100px;
 }
