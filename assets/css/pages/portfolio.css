@@ -98,9 +98,17 @@ width: 40%;
 margin-left: auto;
 }
 
+#project-demo {
+display: none;
+}
 
 .project-macbook {
 width: 1200px;
+
+}
+
+.project-iphone {
+width: 500px;
 
 }
 
@@ -115,10 +123,40 @@ margin-left: 150px;
 border-radius: 16px;
 }
 
+
+#project-landing-mobile {
+overflow: scroll;
+max-height: 920px;
+width: max-content;
+
+margin-top: -945px;
+margin-left: 25px;
+
+border-radius: 0px 0px 80px 80px;
+}
+
+@media screen and (min-width: 768px) {
+#project-demo {
+display: block;
+}
+
+#project-demo-mobile {
+display: none;
+}
+}
+
+
+
+
 .landing-image {
+}
+
+.landing-image-mobile {
 }
 
 
 section#project {
     margin-bottom: 100px;
 }
+
+

@@ -4,10 +4,10 @@
     {{ partial "breadcrumbs.html" . }}
     <div id="project-hero">
       <div>
-      <h2>{{ .Title }}</h2>
-      <p>{{ .Description }}</p>
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Description }}</p>
       </div>
-     
+
     </div>
   </div>
   </div>
@@ -16,17 +16,31 @@
 <section id="project">
   <div class="wrapper">
     <div id="project-demo">
-    <img src="/images/portfolio/macbook.svg" class="project-macbook">
+      <img src="/images/portfolio/macbook.svg" class="project-macbook">
 
-    <div id="project-landing">
-    {{ $landingImage := .Resources.Get "./landing.png" }}
-      {{ $landingWebP := $landingImage.Resize "900x webp q100" }}
+      <div id="project-landing">
+        {{ $landingImage := .Resources.Get "./landing.png" }}
+        {{ $landingWebP := $landingImage.Resize "900x webp q100" }}
 
-    <img src="{{ $landingWebP.RelPermalink }}" class="landing-image">
+        <img src="{{ $landingWebP.RelPermalink }}" class="landing-image">
+      </div>
+
+
     </div>
-  
+    
 
     </div>
+    
+    <div id="project-demo-mobile">
+      <img src="/images/portfolio/iphone.svg" class="project-iphone">
+
+      <div id="project-landing-mobile">
+        {{ $mobileImage := .Resources.Get "./landing-mobile.png" }}
+        {{ $mobileWebP := $mobileImage.Resize "450x" }}
+
+        <img src="{{ $mobileWebP.RelPermalink }}" class="landing-image-mobile">
+      </div>
+
   </div>
 </section>
 
