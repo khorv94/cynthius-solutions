@@ -19,21 +19,31 @@ align-items: center;
 padding: 32px;
 }
 
-
+#contact-text {
+margin-bottom: 32px;
+}
 
 #contact-info {
-display: flex; 
-flex-direction: column;
+margin-right: auto;
 }
 
 .contact-info-item {
 display: flex;
+align-items: center;
+margin-bottom: 32px;
 }
+.contact-info-item img {
+padding-top: 2px;
+margin-bottom: auto;
+margin-right: 16px;
+}
+
 
 
 
 
 #contact-form {
+margin: 32px;
 padding: 32px;
 flex: 1;
 display: flex;
@@ -45,10 +55,26 @@ box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.10);
 backdrop-filter: blur(42px);
 }
 
-#contact-form form input {
+#contact-form form input, #contact-form form textarea {
 color: #fff;
-
+margin-top: 4px;
+padding-left: 8px;
 }
+
+#contact-form form input::placeholder {
+opacity: 0.6;
+}
+
+#contact-form span {
+margin-left: 4px;
+font-size: 18px;
+}
+
+#contact-form hr {
+margin-top: 32px;
+margin-bottom: 32px;
+}
+
 
 
 
@@ -62,7 +88,7 @@ height:40px;
 border-radius: 8px;
 border: 1px solid rgba(255, 255, 255, 0.10);
 background: rgba(0, 0, 0, 0.12);
-backdrop-filter: blur(7.349999904632568px);
+
 width: 100%;
 }
 
@@ -82,6 +108,10 @@ display: flex;
 flex-direction: column;
 }
 
+#contact-name {
+margin-bottom: 18px;
+}
+
 #contact-form-bottom {
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -90,16 +120,16 @@ margin-bottom: 32px;
 gap: 18px;
 }
 
-#contact-form-top > input#name {
+#contact-form-top > div > input#name {
 background: url("static/icons/contact/contact-name.svg");
 background-repeat: no-repeat;
-background-position: right;
+background-position: 98%;
 }
 
-#contact-form-top > input#email {
+#contact-form-top > div > input#email {
 background: url("static/icons/contact/contact-email.svg");
 background-repeat: no-repeat;
-background-position: right;
+background-position: 98%;
 }
 
 
@@ -107,25 +137,25 @@ background-position: right;
 #contact-form-bottom > div > input#phone {
 background: url("static/icons/contact/contact-phone.svg");
 background-repeat: no-repeat;
-background-position: right;
+background-position: 98%;
 }
 
 #contact-form-bottom > div > input#company {
 background: url("static/icons/contact/contact-company.svg");
 background-repeat: no-repeat;
-background-position: right;
+background-position: 98%;
 }
 
 #contact-form-bottom > div > input#website {
 background: url("static/icons/contact/contact-website.svg");
 background-repeat: no-repeat;
-background-position: right;
+background-position: 98%;
 }
 
 #contact-form-bottom > div > input#budget {
 background: url("static/icons/contact/contact-budget.svg");
 background-repeat: no-repeat;
-background-position: right;
+background-position: 98%;
 }
 
 #contact-form-message {
