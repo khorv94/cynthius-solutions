@@ -176,6 +176,10 @@ resize: none;
 
 /* FAQ SECTION  */
 
+.wrapper#faq {
+padding-bottom: 100px;
+}
+
 #contact-faq {
 display: flex;
 flex-direction: column;
@@ -183,6 +187,8 @@ flex-direction: column;
 
 #contact-faq-text {
 text-align: center;
+margin-bottom: 50px;
+padding-top: 100px;
 }
 
 #contact-faq-text-body {
@@ -191,15 +197,12 @@ margin: auto;
 }
 
 .collapsible {
-  border-radius: 14px;
-border: 1px solid rgba(92, 87, 205, 0.20);
-background: var(--White, #FFF);
-box-shadow: 0 0 20px 0 rgba(92, 87, 205, 0.15);
+
 
 
   color: white;
   cursor: pointer;
-  padding: 18px;
+
   width: 100%;
   text-align: left;
   outline: none;
@@ -217,33 +220,45 @@ display: none;
 display: block;
 }
 
-/* .active, .collapsible:hover {
-  background-color: #555;
-}
+.active {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 
-.collapsible:after {
-  content: '\002B';
+
   color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
 }
 
-.active:after {
-  content: "\2212";
-} */
+
+
+#contact-faq > div {
+padding: 16px 24px 18px 24px;
+border-radius: 14px;
+
+
+border: 1px solid rgba(92, 87, 205, 0.20);
+background: var(--White, #FFF);
+box-shadow: 0 0 20px 0 rgba(92, 87, 205, 0.15);
+margin-bottom: 20px;
+}
 
 .content {
-  padding: 0 18px;
+
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #fff;
+  border-radius: 14px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-right: auto;
+  width: 90%;
 }
 
-#contact-faq > div {
-border-radius: 14px;
-}
+
 
 #contact-faq > div > button {
 display: flex;
