@@ -1,9 +1,32 @@
 .nav-hero-bg {
-background-image: url("static/images/pages/hero-bg.svg");
+background-color: #000000CC;
+background-image: url("static/images/pages/hero-bg-mobile.png");
 background-size: cover;
 background-repeat: no-repeat;
 }
 
+
+/* (Medium) */
+@media screen and (min-width: 768px) {
+
+.nav-hero-bg {
+background-image: url("static/images/pages/hero-bg.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+}
+
+/* (Medium) */
+@media screen and (min-width: 1440px) {
+
+.nav-hero-bg {
+background-image: url("static/images/pages/hero-bg-large.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+}
 
 
 nav {

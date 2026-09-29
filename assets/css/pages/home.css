@@ -1,5 +1,9 @@
 /* HERO SECTION */
 
+section#home-hero {
+height: 900px;
+}
+
 .wrapper#home-hero {
 margin-top: 136px;
 margin-bottom: 197px;
