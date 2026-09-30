@@ -1,5 +1,5 @@
 +++
-title = 'Galaxy Project'
+title = 'Galaxy'
 description = 'Content-Focused Blog Website Development'
 meta_title = 'Galaxy Blog Website Development'
 meta_description = "Showcase news and content creation using an easy-to-search custom blog design with the Galaxy project by Cynthius Solutions."

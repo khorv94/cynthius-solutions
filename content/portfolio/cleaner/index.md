@@ -1,5 +1,5 @@
 +++
-title = 'Cleaner Project'
+title = 'Cleaner'
 description = 'Local Service Business Website Development'
 meta_title = 'Cleaner Service Business Website Development'
 meta_description = "Ensure online visibility, rapid updates, and more client engagement with a local business website design using the Cleaner project from Cynthius Solutions."

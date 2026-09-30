@@ -1,5 +1,5 @@
 +++
-title = 'Nebula Project'
+title = 'Nebula'
 description = 'Visual Portfolio Website Design'
 meta_title = 'Nebula Portfolio Website Design'
 meta_description = "Some clients need a more creative portfolio website. Nebula provides an image-focused presence with contrasting light and dark modes and a clean, responsive layout."
