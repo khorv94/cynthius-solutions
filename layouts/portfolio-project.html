@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section>
   <div class="wrapper">
-    {{ partial "breadcrumbs.html" . }}
+    
     <div id="project-hero">
       <div>
         <h2>{{ .Title }}</h2>
@@ -10,6 +10,12 @@
 
     </div>
   </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrapper">
+    {{ .Content }}
   </div>
 </section>
 
@@ -44,11 +50,7 @@
   </div>
 </section>
 
-<section>
-  <div class="wrapper">
-    {{ .Content }}
-  </div>
-</section>
+
 
 
 <section>

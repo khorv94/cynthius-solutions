@@ -1,35 +1,28 @@
 {{ define "main" }}
 <section id="blog-post-hero">
-  <div class="wrapper">
+  <div class="wrapper" id="blog-post">
     <div>
       {{ partial "breadcrumbs.html" . }}
       <h2>{{ .Title }}</h2>
       <div id="post-date-views">
-        <img src="/icons/blog/calendar.svg" />
-        {{ $format := "02 January 2006" }}
-        <p>{{ .Date.Format $format }}</p>
+        <div>
+          <img src="/icons/blog/calendar.svg" />
+          {{ $format := "02 January 2006" }}
+          <p>{{ .Date.Format $format }}</p>
+        </div>
+        <div id="post-date-views-dot">
+          <img src="/icons/blog/dot.svg" />
+        </div>
+        <div>
 
-        <img src="/icons/blog/dot.svg" />
+          <img src="/icons/blog/eye.svg" />
+          <p>1,200</p>
+        </div>
 
-        <img src="/icons/blog/eye.svg" />
-        <p>1,200</p>
+
+
+
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

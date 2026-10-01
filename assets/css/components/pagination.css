@@ -1,0 +1,19 @@
+.pagination-default {
+display: flex;
+align-items: center;
+justify-content: center;
+list-style: none;
+padding-left: 0px;
+}
+
+.pagination-default .page-item {
+margin: 20px;
+}
+
+.pagination-default a {
+text-decoration: none;
+}
+
+.page-item.page-active a p {
+color:#8F8BFF;
+}
