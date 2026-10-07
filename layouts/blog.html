@@ -5,7 +5,7 @@
 
 <section>
   <div class="wrapper">
-    <div id="blog-posts-top">
+    {{/* <div id="blog-posts-top">
       <h2>Recent Blog Posts</h2>
       <div>
         <p>All</p>
@@ -15,7 +15,7 @@
         <p>Application</p>
         <p>Finance</p>
       </div>
-    </div>
+    </div> */}}
     <div id="blog-posts">
 
       {{ $posts := where .Site.RegularPages "Section" "blog" }}
@@ -58,26 +58,31 @@
           {{ end }}
         </div>
 
-        <div>
+        <div class="blog-card-content">
           <div class="post-date">
-            <img src="/icons/blog/calendar.svg" />
+            <img src="/icons/blog/calendar-today.svg" />
             {{ $format := "02 January 2006" }}
-            <p>{{ .Date.Format $format }}</p>
+            <p class="small-font-dark">{{ .Date.Format $format }}</p>
           </div>
-          <h3 class="h3-card-title">{{ .Title }}</h3>
-          <p>{{ .Description }}</p>
+          <div class="blog-card-text">
+            <h3 class="h3-card-title">{{ .Title }}</h3>
+            <p class="small-font-dark">{{ .Description }}</p>
+          </div>
+          
           <div class="read-more">
-            <p>
-              <a href="{{ .RelPermalink }}">Read More
-                <img src="/icons/arrow-forward.svg" />
-              </a>
-            </p>
+            <a href="{{ .RelPermalink }}">
+              <p>
+                Read More
+              </p>
+              <img src="/icons/arrow-forward.svg" />
+            </a>
+
           </div>
         </div>
       </div>
       {{ end }}
     </div>
-    <div>
+    <div id="blog-posts-pagination">
       {{ partial "pagination.html" . }}
     </div>
   </div>

@@ -95,7 +95,7 @@ p.small-font-dark {
 color: var(--black-60, rgba(0, 0, 0, 0.60));
 /* Body/SM */
 font-family: Poppins;
-font-size: 12px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 18px */
