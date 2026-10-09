@@ -185,12 +185,12 @@ line-height: 160%; /* 24px */
 
 p.bold {
 color: var(--Black, #000);
-/* UI/Medium */
-font-family: Poppins;
+
+font-family: Sora;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
-line-height: 160%; /* 24px */
+font-weight: 600;
+line-height: 140%; /* 22.4px */
 }
 
 
