@@ -18,6 +18,7 @@ width: 80%;
 
 .wrapper#about-hero p {
 width: 65%;
+padding-top: 12px;
 }
 
 
@@ -119,11 +120,16 @@ border: dashed;
 padding: 24px;
 }
 
+.active-project > .about-project-description {
+display: flex; 
+flex-direction: column;
+}
+
 .about-project-title {
 display: flex;
 }
 
-.about-project-description {
+#about-project-description {
 display: none;
 }
 
