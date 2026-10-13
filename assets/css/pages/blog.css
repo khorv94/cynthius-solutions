@@ -1,8 +1,29 @@
 
+section#blog-hero .wrapper {
+text-align: center;
+padding-top: 140px;
+padding-bottom: 128px;
+}
+
+#blog-hero-text {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+#blog-hero-text p {
+  padding-top: 12px;
+  margin: auto;
+  width: 80%;
+}
+
+#blog-arrow-down button {
+  margin: auto;
+}
 
 
 #blog-posts {
-padding-top: 100px;
+
 padding-bottom: 60px;
 display: flex;
 flex-direction: column;
@@ -17,10 +38,10 @@ gap: 20px 30px;
 }
 }
 
-#blog-posts-top > div {
-display: flex;
-justify-content: space-between;
-max-width: 60%;
+
+#recent-posts {
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .blog-post-card {
@@ -29,7 +50,7 @@ display: flex;
 flex-direction: column;
 gap: 16px;
 
-border: solid;
+
 }
 
 .blog-cover {
@@ -186,14 +207,38 @@ display: flex;
 flex-direction: row-reverse;
 }
 
-#post-content {
-  
+#post-content li {
+  color: var(--black-60, rgba(0, 0, 0, 0.60));
+/* Body/MD */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#post-content li p {
+margin-bottom: 0px;
 }
 
 #post-content h1 {
 color: black;
 text-align: left;
 margin-top: 0px;
+}
+
+#post-content h2 {
+margin-bottom: 18px;
+}
+
+#post-content h3 {
+margin-bottom: 10px;
+}
+
+#post-content p {
+  margin-bottom: 30px;
 }
 
 #post-toc {
@@ -249,6 +294,7 @@ content: url("static/icons/blog/toc.svg") / "forward arrow tick";
 
 
 #post-tags {
+margin-top: 30px;
 display: flex;
 gap: 16px;
 }
