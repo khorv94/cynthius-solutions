@@ -25,25 +25,25 @@ Cynthius Solutions created Galaxy to bring custom blog design and striking visua
 
 ### Project Highlights
 
-·         Google PageSpeed Score 92/100 (Desktop)
+- Google PageSpeed Score 92/100 (Desktop)
 
-·         Google Analytics support
+- Google Analytics support
 
-·         I18n Multiple language support(Fr, En)
+- I18n Multiple language support(Fr, En)
 
-·         Netlify Settings Predefine
+- Netlify Settings Predefine
 
-·         Contact form support
+- Contact form support
 
-·         Mailchimp integrated
+- Mailchimp integrated
 
-·         Search functionality by fuse.js
+- Search functionality by fuse.js
 
-·         Images, CSS, and JS files are optimized with Hugo Pipe
+- Images, CSS, and JS files are optimized with Hugo Pipe
 
-·         Free Update and Premium Support
+- Free Update and Premium Support
 
-·         Detail Documentation
+- Detail Documentation
 
 ### The Final Experience
 

@@ -25,39 +25,39 @@ Cynthius Solutions planned CyberShield’s IT services website development aroun
 
 ### Project Highlights
 
-·         91+ Google PageSpeed Score on Desktop
+- 91+ Google PageSpeed Score on Desktop
 
-·         Highly customizable
+- Highly customizable
 
-·         Color, font, menu, social links, and SEO meta tags
+- Color, font, menu, social links, and SEO meta tags
 
-·         Built with Hugo
+- Built with Hugo
 
-·         Styled using Tailwind CSS
+- Styled using Tailwind CSS
 
-·         16+ complete SaaS pages
+- 16+ complete SaaS pages
 
-·         Modern design
+- Modern design
 
-·         Trendy look and feel
+- Trendy look and feel
 
-·         Beautiful element animation
+- Beautiful element animation
 
-·         Fully SEO optimized
+- Fully SEO optimized
 
-·         MDX components auto-import
+- MDX components auto-import
 
-·         Fully responsive on all devices
+- Fully responsive on all devices
 
-·         Clean folder structure
+- Clean folder structure
 
-·         Compatible with all modern browsers
+- Compatible with all modern browsers
 
-·         Free Google Fonts
+- Free Google Fonts
 
-·         Font Awesome icons
+- Font Awesome icons
 
-·         Clean code
+- Clean code
 
 ### The Final Experience
 

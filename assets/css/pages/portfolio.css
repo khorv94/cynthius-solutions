@@ -1,3 +1,29 @@
+section#portfolio-hero .wrapper {
+text-align: center;
+padding-top: 140px;
+padding-bottom: 128px;
+}
+
+#portfolio-hero-text {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+#portfolio-hero-text p {
+  padding-top: 12px;
+  margin: auto;
+  width: 80%;
+}
+
+#portfolio-arrow-down button {
+  margin: auto;
+}
+
+#recent-projects {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
 
 
 #portfolio-projects {
@@ -10,21 +36,15 @@ flex-direction: column;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
+gap: 20px 30px;
 }
 
 }
 
-#portfolio-projects-top {
-display: flex;
-flex-direction: column;
-}
-
-#portfolio-projects-top div {
-display: flex;
-}
 
 .portfolio-project-card {
-border: dashed;
+border: solid;
+border-radius: 32px;
 padding: 16px;
 }
 
@@ -34,7 +54,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 
-border: solid;
+
 border-radius: 16px;
 }
 
@@ -109,7 +129,32 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
 
 #project-hero {
 display: flex;
-flex-direction: row;
+flex-direction: column;
+
+padding-top: 60px;
+padding-bottom: 126px;
+}
+
+#project-hero h2 {
+   
+    color: white;
+    margin-bottom: 70px;
+}
+
+#project-hero-cover {
+height: 525px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: solid;
+border-radius: 16px;
+background: white;
+margin: auto auto;
+}
+
+#project-hero-cover img {
+
 }
 
 

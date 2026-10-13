@@ -25,31 +25,31 @@ Cynthius Solutions designed Fortify’s responsive SaaS website using Hugo and T
 
 ### Project Highlights
 
-·         95+ Google PageSpeed Score on Desktop
+- 95+ Google PageSpeed Score on Desktop
 
-·         Fully responsive on desktops, tablets, and smartphones
+- Fully responsive on desktops, tablets, and smartphones
 
-·         Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
+- Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 
-·         Built with Hugo and Tailwind CSS
+- Built with Hugo and Tailwind CSS
 
-·         Netlify & Vercel pre-configured
+- Netlify & Vercel pre-configured
 
-·         13+ Complete SaaS Pages
+- 13+ Complete SaaS Pages
 
-·         Modern & Trendy Design
+- Modern & Trendy Design
 
-·         Beautiful Element Animation
+- Beautiful Element Animation
 
-·         Page Speed Optimized
+- Page Speed Optimized
 
-·         Fully SEO Optimized
+- Fully SEO Optimized
 
-·         MDX components auto-import
+- MDX components auto-import
 
-·         SEO Friendly
+- SEO Friendly
 
-·         Clean code
+- Clean code
 
 ### The Final Experience
 

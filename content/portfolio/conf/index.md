@@ -25,41 +25,41 @@ Cynthius Solutions created Conf to be extremely configurable. This conference we
 
 ### Project Highlights
 
-·         100/100 Google PageSpeed Score on Desktop
+- 100/100 Google PageSpeed Score on Desktop
 
-·         Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
+- Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 
-·         Built with Hugo and Tailwind CSS
+- Built with Hugo and Tailwind CSS
 
-·         Netlify & Vercel pre-configured
+- Netlify & Vercel pre-configured
 
-·         10+ Complete Pages
+- 10+ Complete Pages
 
-·         Modern & Trendy Design
+- Modern & Trendy Design
 
-·         Beautiful Element Animation
+- Beautiful Element Animation
 
-·         Page Speed Optimized
+- Page Speed Optimized
 
-·         Fully SEO Optimized
+- Fully SEO Optimized
 
-·         Lifetime Free Support & Updates
+- Lifetime Free Support & Updates
 
-·         MDX components auto-import
+- MDX components auto-import
 
-·         Fully responsive on desktops, tablets, and smartphones
+- Fully responsive on desktops, tablets, and smartphones
 
-·         SEO Friendly
+- SEO Friendly
 
-·         Clean folder structure
+- Clean folder structure
 
-·         Simple and easy development environment setup
+- Simple and easy development environment setup
 
-·         Compatible with all modern browsers
+- Compatible with all modern browsers
 
-·         Free Google fonts
+- Free Google fonts
 
-·         Font Awesome icons
+- Font Awesome icons
 
 ### The Final Experience
 

@@ -25,35 +25,35 @@ Cynthius Solutions created Cleaner as an example of what a 9+ small business web
 
 ### Project Highlights
 
-·         9+ Complete Pages
+- 9+ Complete Pages
 
-·         97/100 Google PageSpeed Score on Desktop
+- 97/100 Google PageSpeed Score on Desktop
 
-·         Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
+- Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
 
-·         Built with Hugo v5 Tailwind CSS v4
+- Built with Hugo v5 Tailwind CSS v4
 
-·         Netlify & Vercel settings pre-configured
+- Netlify & Vercel settings pre-configured
 
-·         Write and update content in Markdown / MDX
+- Write and update content in Markdown / MDX
 
-·         MDX components auto-import
+- MDX components auto-import
 
-·         Fully responsive on desktops, tablets, and smartphones
+- Fully responsive on desktops, tablets, and smartphones
 
-·         Clean folder structure
+- Clean folder structure
 
-·         Simple and easy development environment setup
+- Simple and easy development environment setup
 
-·         SEO Friendly
+- SEO Friendly
 
-·         Animation on scroll
+- Animation on scroll
 
-·         Free Google fonts
+- Free Google fonts
 
-·         Free future updates
+- Free future updates
 
-·         Detail Documentation
+- Detail Documentation
 
 ### The Final Experience
 

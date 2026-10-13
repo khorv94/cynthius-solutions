@@ -25,33 +25,33 @@ Cynthius Solutions chose a minimalist yet professional portfolio website. Thomso
 
 ### Project Highlights
 
-·         Google PageSpeed Score 98/100 (Desktop)
+- Google PageSpeed Score 98/100 (Desktop)
 
-·         Google Analytics Support
+- Google Analytics Support
 
-·         Netlify Settings Predefined
+- Netlify Settings Predefined
 
-·         Supports Contact Form (Formspree)
+- Supports Contact Form (Formspree)
 
-·         100% Responsive Design
+- 100% Responsive Design
 
-·         Semantic HTML Document Structure
+- Semantic HTML Document Structure
 
-·         Compatible With Modern Browsers
+- Compatible With Modern Browsers
 
-·         Custom Logo Support
+- Custom Logo Support
 
-·         Syntax Highlighting
+- Syntax Highlighting
 
-·         Caching Enabled
+- Caching Enabled
 
-·         Site Verification Code Options Are Available
+- Site Verification Code Options Are Available
 
-·         Includes All SCSS Files
+- Includes All SCSS Files
 
-·         Images, CSS, and JS files are optimized with Hugo Pipe
+- Images, CSS, and JS files are optimized with Hugo Pipe
 
-·         Google Font Loads From Webfont Loader
+- Google Font Loads From Webfont Loader
 
 ### The Final Experience
 

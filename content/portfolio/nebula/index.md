@@ -25,37 +25,37 @@ Cynthius Solutions formed Nebula as a more visually focused creative portfolio w
 
 ### Project Highlights
 
-·         Google PageSpeed Score 97/100 (Desktop)
+- Google PageSpeed Score 97/100 (Desktop)
 
-·         Google Analytics support
+- Google Analytics support
 
-·         Dark & Light Mode Available
+- Dark & Light Mode Available
 
-·         Netlify Settings Predefined
+- Netlify Settings Predefined
 
-·         Open Graph & Twitter Card meta tags
+- Open Graph & Twitter Card meta tags
 
-·         Caching enabled
+- Caching enabled
 
-·         Contact form support
+- Contact form support
 
-·         100% Responsive Design
+- 100% Responsive Design
 
-·         Semantic HTML Markup
+- Semantic HTML Markup
 
-·         Compatible With Modern Browsers
+- Compatible With Modern Browsers
 
-·         Custom Logo Support
+- Custom Logo Support
 
-·         Syntax Highlighting
+- Syntax Highlighting
 
-·         Includes All SCSS Files
+- Includes All SCSS Files
 
-·         Image Optimized With Hugo Pipe
+- Image Optimized With Hugo Pipe
 
-·         Free Update and Premium Support
+- Free Update and Premium Support
 
-·         Detail Documentation
+- Detail Documentation
 
 ### The Final Experience
 

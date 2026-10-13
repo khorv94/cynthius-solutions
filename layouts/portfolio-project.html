@@ -4,9 +4,22 @@
     
     <div id="project-hero">
       <div>
-        <h2>{{ .Title }}</h2>
-        <p>{{ .Description }}</p>
+        {{ partial "breadcrumbs-portfolio.html" . }}
+    
+        <h2>{{ .Description }}</h2>
+
       </div>
+       {{ $coverImage := .Resources.Get "./logo.svg" }}
+        {{ if $coverImage }}
+
+        <div id="project-hero-cover" id="{{ .Title }}">
+          {{/*  <p class="portfolio-cover-pill">{{ .Params.project_type }}</p>  */}}
+          <img src="{{ $coverImage.RelPermalink }}"
+          />
+
+          {{ end }}
+        </div>
+    
 
     </div>
   </div>
@@ -14,7 +27,7 @@
 </section>
 
 <section>
-  <div class="wrapper">
+  <div class="wrapper" id="post-content">
     {{ .Content }}
   </div>
 </section>

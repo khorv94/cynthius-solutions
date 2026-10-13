@@ -25,29 +25,29 @@ Cynthius Solutions developed a custom e-commerce website for Adrian using Hugo. 
 
 ### Project Highlights
 
-·         Google PageSpeed Score 87/100 (Desktop)
+- Google PageSpeed Score 87/100 (Desktop)
 
-·         Countdown available
+- Countdown available
 
-·         Slider available
+- Slider available
 
-·         Netlify Settings Predefined
+- Netlify Settings Predefined
 
-·         Search Functionality using fuse.js
+- Search Functionality using fuse.js
 
-·         Google Analytics Support
+- Google Analytics Support
 
-·         Google Map support Available
+- Google Map support Available
 
-·         Caching Enable
+- Caching Enable
 
-·         Contact Form Support
+- Contact Form Support
 
-·         Images, CSS, and JS files are optimized with Hugo Pipe
+- Images, CSS, and JS files are optimized with Hugo Pipe
 
-·         Instagram Feed available
+- Instagram Feed available
 
-·         SnipCart Integration
+- SnipCart Integration
 
 ### The Final Experience
 
