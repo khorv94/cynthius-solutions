@@ -5,7 +5,8 @@
 
 .cta-bg {
 padding: 80px 58px 70px 58px;
-background-image: url("static/images/pages/cta-bg.svg");
+background: var(--Gradient, linear-gradient(110deg, #5C57CD 1.28%, #332E9D 99.01%));
+background-image: url("static/images/pages/cta-bg.png");
 background-size: cover;
 background-repeat: no-repeat;
 border-radius: 30px;

@@ -319,8 +319,8 @@ margin-bottom: 60px;
 /* TESTIMONIALS SECTION */
 
 section#testimonials {
-
-background-image: url("static/images/pages/testimonials-bg.svg");
+background-color: #000000CC;
+background-image: url("static/images/pages/testimonials-bg.png");
 background-size: cover;
 background-repeat: no-repeat;
 
