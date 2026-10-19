@@ -1,7 +1,10 @@
 footer {
 background-color: #141416;
-
+background-image: url("static/decor-ellipse1.png"),url("static/decor-ellipse2.png");
+background-repeat: no-repeat;
+background-size: cover;
 }
+
 
 .wrapper#footer {
 /* display: flex;
