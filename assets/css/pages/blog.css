@@ -243,10 +243,10 @@ margin-bottom: 10px;
 
 #post-toc {
 flex: 1 1 0;
-min-width: max-content;
+min-width: 350px;
 height: max-content;
 padding: 24px;
-
+margin-left: 50px;
 border-radius: 14px;
 border: 1px solid rgba(255, 255, 255, 0.10);
 background: var(--White, #FFF);
