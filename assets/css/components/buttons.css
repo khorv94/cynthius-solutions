@@ -29,6 +29,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 160%; /* 24px */
 text-decoration: none;
+margin-left: auto;
 }
 
 #btn-primary-icon {
@@ -41,7 +42,7 @@ aspect-ratio: 1/1;
 border-radius: 38px;
 background: var(--White, #FFF);
 box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
-margin-left: 10px;
+margin-left: auto;
 }
 
 

@@ -34,13 +34,22 @@ line-height: 110%;
 h2 {
 color: var(--Black, #000);
 font-family: Sora;
-font-size: 39.81px;
+font-size: 32px;
 font-style: normal;
 font-weight: 600;
 line-height: 140%; /* 72.8px */
 letter-spacing: -1.04px;
 margin-top: 0px;
 margin-bottom: 0px;
+}
+
+/* (Medium) */
+@media screen and (min-width: 768px) {
+
+h2 {
+font-size: 39.81px;
+}
+
 }
 
 h2.white {
@@ -58,6 +67,21 @@ margin-bottom: 0px;
 h3 {
 color: var(--Black, #000);
 font-family: Sora;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 33.6px */
+letter-spacing: -0.48px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+/* (Medium) */
+@media screen and (min-width: 768px) {
+
+h3 {
+color: var(--Black, #000);
+font-family: Sora;
 font-size: 33px;
 font-style: normal;
 font-weight: 600;
@@ -65,6 +89,7 @@ line-height: 140%; /* 33.6px */
 letter-spacing: -0.48px;
 margin-top: 0px;
 margin-bottom: 0px;
+}
 }
 
 h3.h3-card-title {
@@ -91,16 +116,7 @@ margin-top: 0px;
 margin-bottom: 0px;
 }
 
-p.small-font-dark {
-color: var(--black-60, rgba(0, 0, 0, 0.60));
-/* Body/SM */
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 18px */
-letter-spacing: -0.36px;
-}
+
 
 
 
@@ -141,12 +157,50 @@ p {
 color: var(--black-60, rgba(0, 0, 0, 0.60));
 /* Body/MD */
 font-family: Poppins;
-font-size: 16px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
 margin-top: 0px;
 margin-bottom: 0px;
+}
+
+p.bold {
+color: var(--Black, #000);
+
+font-family: Sora;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+}
+
+p.small-font-dark {
+color: var(--black-60, rgba(0, 0, 0, 0.60));
+/* Body/SM */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 18px */
+letter-spacing: -0.36px;
+}
+
+/* (Medium) */
+@media screen and (min-width: 768px) {
+
+p {
+font-size: 16px;
+}
+
+p.bold {
+font-size: 16px;
+}
+
+p.small-font-dark {
+font-size: 14px;
+}
+
 }
 
 p.white {
@@ -183,15 +237,7 @@ font-weight: 600;
 line-height: 160%; /* 24px */
 }
 
-p.bold {
-color: var(--Black, #000);
 
-font-family: Sora;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 140%; /* 22.4px */
-}
 
 
 
